@@ -221,8 +221,8 @@ class VotePage extends React.Component<VoteProps, VoteState> {
                   sessions and you have until{' '}
                   {this.props.pageMetadata.conference.VotingOpenUntil.format(
                     this.props.pageMetadata.dates.TimeDisplayFormat +
-                      ' ' +
-                      this.props.pageMetadata.dates.DateDisplayFormat,
+                    ' ' +
+                    this.props.pageMetadata.dates.DateDisplayFormat,
                   )}
                 </strong>{' '}
                 to submit your votes. <strong>Each person should only lodge one set of votes</strong>; we have a number
@@ -257,14 +257,14 @@ class VotePage extends React.Component<VoteProps, VoteState> {
                 </li>
                 <li>
                   We recommend you <strong>try to find a mix of talks</strong> that are a combination of super relevant
-                  in your technical area, cover soft skills / leadership and/or are a bit more out there (to stretch
+                  in your technical area, cover soft skills/leadership and/or are a bit more out there (to stretch
                   yourself), but it's totally up to you to vote for your perfect agenda!
                 </li>
                 {this.props.pageMetadata.conference.TicketNumberWhileVoting === TicketNumberWhileVoting.Optional && (
                   <li>
                     We ideally want the people who are attending to have the greatest influence on the agenda and we
                     also feel this is fairer to session submitters since it makes for a more level playing field for
-                    social network reach; this year we have an optional field for you to add in your ticket # (from your
+                    social network reach; this year we have an optional field for you to enter your ticket # (from your
                     confirmation email) if you've{' '}
                     <Link href="/tickets">
                       <a>purchased a ticket</a>

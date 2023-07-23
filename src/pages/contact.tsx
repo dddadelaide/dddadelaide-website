@@ -41,7 +41,8 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <h2>DDD Adelaide Inc</h2>
     <ul>
       <li>
-        <strong><abbr title="Australian Business Number">ABN:</abbr></strong> 77 632 720 298
+        {/* ABN is wrapped in spans so it doesn't accidentally get rendered as a phone number - https://stackoverflow.com/questions/226131/how-to-disable-phone-number-linking-in-mobile-safari */}
+        <strong><abbr title="Australian Business Number">ABN:</abbr></strong> <span>77</span> <span>632</span> <span>720</span> <span>298</span>
       </li>
       <li>
         <strong>Postal Address:</strong> <address>PO Box 3131 Rundle Mall SA 5000</address>

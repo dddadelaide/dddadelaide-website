@@ -37,7 +37,7 @@ class CFPPage extends React.Component<WithPageMetadataProps> {
         <h1>Call For Presentations (CFP)</h1>
 
         <p>
-          We welcome sessions from any software related topic and from anyone in the software industry (you don't have
+          We welcome sessions from any software-related topic and from anyone in the software industry (you don't have
           to be a developer!).
         </p>
 

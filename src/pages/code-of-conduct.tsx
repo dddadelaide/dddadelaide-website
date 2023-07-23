@@ -129,7 +129,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
 
     <ul>
       <li>
-        Listen to the complaint with an open mind and consider the effect rather than intent of the behaviour in
+        Listen to the complaint with an open mind and consider the effect rather than the intent of the behaviour in
         question
       </li>
       <li>Not be dismissive of the complainant</li>
@@ -155,7 +155,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <h2>Inclusivity</h2>
 
     <p>
-      In our commitment to a harassment-free and inclusive environment we strongly believe it's important to pay
+      In our commitment to a harassment-free and inclusive environment, we strongly believe it's important to pay
       attention to harmful language patterns.
     </p>
 
@@ -177,7 +177,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
 
     <p>
       Using gendered terms like "dude" or "guys" to address a mixed-gendered group of people contributes to furthering
-      exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered
+      the exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered
       terms.
     </p>
 

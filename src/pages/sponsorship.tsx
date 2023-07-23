@@ -33,7 +33,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
         out on billable opportunities
       </li>
       <li>
-        Allowing anyone to submit about any software industry related topic; gathers wide interest from extended
+        Allowing anyone to submit about any software industry-related topic; gathers wide interest from extended
         networks within the community
       </li>
       <li>Having a democratically chosen agenda; generates excitement and interest from the wider community</li>
@@ -55,7 +55,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
 
     <p>
-      DDD Adelaide 2023 is the follow-up to our successful inaugural event in 2019. With over 150 attendees, the
+      DDD Adelaide 2023 is the follow-up to our successful inaugural event in 2019. With over 150 attendees in the
       first year, we achieved our goal of creating a great conference experience for attendees and sponsors with strong positive feedback
       from all.
     </p>
