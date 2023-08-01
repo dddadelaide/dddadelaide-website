@@ -118,9 +118,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
   if (Conference.ChildcarePrice !== null) {
     Faqs.push({
       Question: 'Will childcare be available?',
-      Answer: `Yes! We will be providing childcare at this year’s conference. It will be available for the duration of the main conference (not including the afterparty) and will cost ${
-        Conference.ChildcarePrice
-      }. You will be required to provide food for your child for the day. If you would like to book your child in then please purchase an additional ‘Childcare’ ticket when purchasing your ticket. Spots are limited!`,
+      Answer: `Yes! We will be providing childcare at this year’s conference. It will be available for the duration of the main conference (not including the afterparty) and will cost ${Conference.ChildcarePrice}. You will be required to provide food for your child for the day. If you would like to book your child in then please purchase an additional ‘Childcare’ ticket when purchasing your ticket. Spots are limited!`,
       Category: 'tickets',
     })
   }
@@ -154,11 +152,11 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Answer: (
       <Fragment>
         Payments can be made with credit card using Tito via our tickets page when registrations are open. Companies
-        that want to buy bulk tickets (> 10) can{' '}
+        that want to buy bulk tickets (&gt; 10) can{' '}
         <a className="maillink" href={'mailto:' + Conference.ContactEmail}>
           contact us
         </a>{' '}
-        to pay by invoice (EFT or credit card).
+        to pay by invoice (<abbr title="Electronic funds transfer">EFT</abbr>).
       </Fragment>
     ),
     Category: 'tickets',
@@ -287,8 +285,9 @@ export default function getFaqs(dates: Dates): FAQ[] {
     AnswerWithoutParagraph: (
       <Fragment>
         <p>
-          {Conference.Name} {Conference.Instance} has been organized by Andrew Best, Claire Webber, David Gardiner, Harnoor Bandesh, Isaac Mann, and Will Turner, with support
-          from the broader DDD Australia community including Melbourne, Sydney, Brisbane, and Perth.
+          {Conference.Name} {Conference.Instance} has been organized by Andrew Best, Claire Webber, David Gardiner,
+          Harnoor Bandesh, Isaac Mann, and Will Turner, with support from the broader DDD Australia community including
+          Melbourne, Sydney, Brisbane, and Perth.
         </p>
         <ul>
           <li>
@@ -316,9 +315,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
               Isaac Mann
             </SafeLink>
           </li>
-          <li>
-            Will Turner
-          </li>
+          <li>Will Turner</li>
         </ul>
         <p>Furthermore, we have many others who volunteer and assist with organization.</p>
       </Fragment>
