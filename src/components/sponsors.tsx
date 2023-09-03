@@ -66,7 +66,7 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
               .map(s => (
                 <SafeLink href={s.url} target="_blank" key={s.name} title={s.name} style={serviceProviderStyle}>
                   <small>{s.serviceProvided} by:</small>
-                  <img src={s.imageUrl} alt={s.name} />
+                  <img src={s.imageUrl} alt={s.name} className="serviceProvider" />
                 </SafeLink>
               ))}
           </Fragment>
@@ -96,11 +96,11 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
         )}
       </section>
 
-      {sponsors.find(s => s.type === SponsorType.Standard) && (
+      {sponsors.find(s => s.type === SponsorType.Prize) && (
         <section className="sponsors standard">
-          <h2>Prize Sponsors</h2>
+          <h2>Prize Sponsor</h2>
           {sponsors
-            .filter(s => s.type === SponsorType.Standard)
+            .filter(s => s.type === SponsorType.Prize)
             .map(s => (
               <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
                 <img src={s.imageUrl} alt={s.name} />

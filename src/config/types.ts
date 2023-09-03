@@ -160,7 +160,7 @@ export interface Contact {
 }
 
 export enum SponsorType {
-  Standard,
+  Prize,
   Silver,
   Gold,
   Platinum,
