@@ -59,6 +59,18 @@ const Sponsors: Sponsor[] = [
     type: SponsorType.SA,
     url: 'https://www.quoterite.com.au/',
   },
+  {
+    imageUrl: '/static/images/sponsors/taptu.png',
+    name: 'Taptu',
+    type: SponsorType.SA,
+    url: 'https://www.taptu.com.au/',
+  },
+  {
+    imageUrl: '/static/images/sponsors/verida.png',
+    name: 'Verida',
+    type: SponsorType.SA,
+    url: 'https://www.verida.io/',
+  },
   // Community
   {
     imageUrl: '/static/images/sponsors/yow.png',
