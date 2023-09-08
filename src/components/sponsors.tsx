@@ -38,6 +38,19 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
               .filter(s => s.type === SponsorType.Gold)
               .map(s => (
                 <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
+                  <img src={s.imageUrl} alt={s.name} className="gold" />
+                </SafeLink>
+              ))}
+          </Fragment>
+        )}
+
+        {sponsors.find(s => s.type === SponsorType.SA) && (
+          <Fragment>
+            <h2>SA Sponsors</h2>
+            {sponsors
+              .filter(s => s.type === SponsorType.SA)
+              .map(s => (
+                <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
                   <img src={s.imageUrl} alt={s.name} />
                 </SafeLink>
               ))}
@@ -57,6 +70,7 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
           </Fragment>
         )}
 
+        <br />
         <br />
 
         {sponsors.find(s => s.type === SponsorType.Service) && (
@@ -85,6 +99,19 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
           </Fragment>
         )}
 
+        {sponsors.find(s => s.type === SponsorType.Prize) && (
+          <Fragment>
+            <h2>Prize Sponsor</h2>
+            {sponsors
+              .filter(s => s.type === SponsorType.Prize)
+              .map(s => (
+                <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
+                  <img src={s.imageUrl} alt={s.name} />
+                </SafeLink>
+              ))}
+          </Fragment>
+        )}
+
         {!hideUpsell && (
           <p>
             If you'd like to explore sponsorship opportunities, please check out our{' '}
@@ -95,19 +122,6 @@ const Sponsors: StatelessComponent<SponsorsProps> = ({ sponsors, show, hideUpsel
           </p>
         )}
       </section>
-
-      {sponsors.find(s => s.type === SponsorType.Prize) && (
-        <section className="sponsors standard">
-          <h2>Prize Sponsor</h2>
-          {sponsors
-            .filter(s => s.type === SponsorType.Prize)
-            .map(s => (
-              <SafeLink href={s.url} target="_blank" key={s.name} title={s.name}>
-                <img src={s.imageUrl} alt={s.name} />
-              </SafeLink>
-            ))}
-        </section>
-      )}
     </Fragment>
   ) : (
     <Fragment>

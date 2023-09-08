@@ -162,6 +162,7 @@ export interface Contact {
 export enum SponsorType {
   Prize,
   Silver,
+  SA,
   Gold,
   Platinum,
   Service,
