@@ -61,7 +61,7 @@ const CurrentAgenda: StatelessComponent<AgendaProps> = ({ SessionCell }) => (
           <tr>
             <td className="time">9:55</td>
             <SessionCell sessionId="1488a444-27cc-4391-980c-5c346df1c041" />
-            <SessionCell sessionId="b864988e-252c-4afc-b846-3826d87d4112" />
+            <SessionCell sessionId="35c9aa76-2734-4492-89d6-2c04df8ef5d4" />
             <SessionCell sessionId="cfd2052b-16a4-4742-83ba-faeb325925f8" />
           </tr>
 
@@ -136,7 +136,7 @@ const CurrentAgenda: StatelessComponent<AgendaProps> = ({ SessionCell }) => (
 
           <tr>
             <td className="time">13:50</td>
-            <SessionCell sessionId="2c28d200-0d44-4ddf-87c1-c33c3a944b73" />
+            <SessionCell sessionId="b864988e-252c-4afc-b846-3826d87d4112" />
             <SessionCell sessionId="b8f734bd-d625-43a3-aaa1-959e8bdea594" />
             <SessionCell sessionId="7cba8b73-494d-48ed-820e-c7201bb520d4" />
           </tr>
