@@ -15,6 +15,12 @@ const Sponsors: Sponsor[] = [
     url: 'https://www.octopus.com/',
   },
   {
+    imageUrl: '/static/images/sponsors/university-of-adelaide.png',
+    name: 'The University of Adelaide',
+    type: SponsorType.Gold,
+    url: 'https://www.adelaide.edu.au/',
+  },
+  {
     imageUrl: '/static/images/sponsors/encode.png',
     name: 'Encode Talent',
     serviceProvided: 'Coffee Cart',
