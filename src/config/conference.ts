@@ -31,7 +31,7 @@ const presentationSubmissionsOpenFrom = moment.parseZone('2023-08-01T08:00:00+09
 const presentationSubmissionsOpenUntil = moment.parseZone('2023-09-06T23:59:59+09:30')
 const votingOpenFrom = moment.parseZone('2023-09-10T08:00:00+09:30')
 const votingOpenUntil = moment.parseZone('2023-09-29T23:59:59+09:30')
-const agendaPublishedFrom = moment.parseZone('2023-10-06T15:00:00+09:30')
+const agendaPublishedFrom = moment.parseZone('2023-10-05T15:00:00+09:30')
 const feedbackOpenFrom = date.clone()
 const feedbackOpenUntil = date
   .clone()
