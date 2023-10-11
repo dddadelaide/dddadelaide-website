@@ -19,7 +19,7 @@ const venue: Venue = {
         href="https://www.wilsonparking.com.au/parking-locations/south-australia/adelaide-cbd/adelaide-central-car-park"
         target="_blank"
       >
-        $21.00 for the day
+        $8.00 for the day
       </SafeLink>{' '}
       if booked online.
     </Fragment>
@@ -35,7 +35,8 @@ const venue: Venue = {
   ),
   Bus: (
     <Fragment>
-      There are a number of Bus and Tram combinations that will get you right outside of the Adelaide University North Terrace Campus. Use the{' '}
+      There are a number of Bus and Tram combinations that will get you right outside of the Adelaide University North
+      Terrace Campus. Use the{' '}
       <SafeLink href="https://www.adelaidemetro.com.au/plan-a-trip/plan-my-journey" target="_blank">
         Adelaide Metro Journey Planner
       </SafeLink>{' '}
