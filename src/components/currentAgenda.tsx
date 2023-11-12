@@ -162,7 +162,7 @@ const CurrentAgenda: StatelessComponent<AgendaProps> = ({ SessionCell }) => (
             <td colSpan={3} className="breadth">
               <strong>After Conference Social</strong>
               <br />
-              <small className="room">Hotel Richmond</small>
+              <small className="room">The Austral</small>
             </td>
           </tr>
         </tbody>
