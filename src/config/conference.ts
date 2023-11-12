@@ -119,7 +119,7 @@ const Conference: IConference = {
   MediaOfficerName: null,
 
   AnonymousReportFormUrl:
-    'TODO: https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS26sQVnJFzFLm-6XlxI4bCFURDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNS4u',
+    'https://forms.gle/G1CuaumckcExMbcy5',
 
   AnonymousVoting: true,
   PreferentialVoting: false,
