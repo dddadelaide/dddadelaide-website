@@ -39,6 +39,8 @@ class VenuePage extends React.Component<WithPageMetadataProps> {
             >
               {conference.Venue.Address}.
             </SafeLink>
+          </p>
+          <p>
             Further venue information can be found on <SafeLink href={'https://www.adelaide.edu.au/campuses/north-terrace'} target="_blank" >The University of Adelaide's Website.</SafeLink>
           </p>
         </div>
