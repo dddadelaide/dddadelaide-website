@@ -141,8 +141,8 @@ const Conference: IConference = {
   FeedbackOpenFrom: feedbackOpenFrom,
   FeedbackOpenUntil: feedbackOpenUntil,
 
-  ConferenceFeedbackLink: 'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS5CUxBFyke5HsTZBZ9S8S6lUMDNGQU9HWTNaTFNDSTI5RUlBVE9WQlJXRy4u',
-  SessionFeedbackLink: 'https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS5CUxBFyke5HsTZBZ9S8S6lUMzVVUUJCU1VDREhLVE9NSjhJQkE2VjU5QS4u',
+  ConferenceFeedbackLink: 'https://forms.gle/PRo9CwYPUAq9LiqW8',
+  SessionFeedbackLink: 'https://forms.gle/SSpSrzJmXPRQhX1J9',
 
   HideDate: hideDate,
   HideSponsors: false,
