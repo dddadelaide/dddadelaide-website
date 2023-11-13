@@ -25,16 +25,16 @@ export const ImportantDatesList: React.FC<ImportantDatesListProps> = ({
     <Fragment>
       {conference.ImportantDates[0].Date.utcOffset() !== currentDate.Value.utcOffset() && (
         <p>
-          <em>Note: All dates in {conference.ImportantDates[0].Date.format('ZZ')}.</em>
+          <em>Note: All dates/times are in Australia/Adelaide time zone</em>
         </p>
       )}
 
       <StyledImportantDateList layout={layout}>
         {/* Upcoming dates */}
         {conference.ImportantDates.filter(
-          importantDate =>
+          (importantDate) =>
             !isPast(importantDate.Date, currentDate) || (importantDate.Type === 'conference' && !hasConferenceFinished),
-        ).map(importantDate => {
+        ).map((importantDate) => {
           const Component = layout === 'calendar' ? ImportantDateTile : ImportantDateTileInline
           return <Component key={importantDate.Description} importantDate={importantDate} />
         })}
@@ -46,9 +46,9 @@ export const ImportantDatesList: React.FC<ImportantDatesListProps> = ({
           ))}
         {/* Past dates */}
         {conference.ImportantDates.filter(
-          importantDate =>
+          (importantDate) =>
             isPast(importantDate.Date, currentDate) && (importantDate.Type !== 'conference' || hasConferenceFinished),
-        ).map(importantDate => {
+        ).map((importantDate) => {
           const Component = layout === 'calendar' ? ImportantDateTile : ImportantDateTileInline
           return <Component key={importantDate.Description} importantDate={importantDate} isFinished />
         })}
