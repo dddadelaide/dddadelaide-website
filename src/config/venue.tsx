@@ -9,8 +9,8 @@ const venue: Venue = {
   Address: '259 North Terrace, Adelaide',
   Latitude: -34.91900042552125,
   Longitude: 138.60492092823333,
-  Afterparty: null,
-  AfterpartyAddress: null,
+  Afterparty: 'The Austral Hotel',
+  AfterpartyAddress: '205 Rundle St, Adelaide',
   Wifi: 'University of Adelaide has free wifi for all attendees.',
   Car: (
     <Fragment>
@@ -19,7 +19,7 @@ const venue: Venue = {
         href="https://www.wilsonparking.com.au/parking-locations/south-australia/adelaide-cbd/adelaide-central-car-park"
         target="_blank"
       >
-        $8.00 for the day
+        $14.00 for the day
       </SafeLink>{' '}
       if booked online.
     </Fragment>
