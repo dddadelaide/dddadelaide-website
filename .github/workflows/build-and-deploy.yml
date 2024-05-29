@@ -55,5 +55,7 @@ jobs:
           imageToDeploy: dddadelaide.azurecr.io/dddadelaidewebsite:${{ github.sha }}
           targetPort: 3000
           ingress: external
-          environmentVariables: one=two three=four
+          environmentVariables: >
+            "one=two"
+            "three=four"
           disableTelemetry: true
