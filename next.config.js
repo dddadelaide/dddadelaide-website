@@ -2,7 +2,7 @@
 const config = {
   poweredByHeader: false,
   experimental: {
-    outputStandalone: process.env.STANDALONE_BUILD === 'true',
+    outputStandalone: true,
   },
   output: 'standalone',
   async rewrites() {
