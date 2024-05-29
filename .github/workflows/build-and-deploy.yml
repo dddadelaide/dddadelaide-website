@@ -47,10 +47,16 @@ jobs:
             echo "::set-output name=website_name::dddadelaide-website-test"
           fi
 
+# https://github.com/dddadelaide/dddadelaide-website/actions/runs/9281643954/job/25538037681
+# need to set username / password to allow the instance to pull from ACR by the looks of things
+
       - name: Deploy Website Revision
         uses: azure/container-apps-deploy-action@v2
         with:
           location: AustraliaEast
+          acrName: dddadelaide
+          acrUsername: dddadelaide
+          acrPassword: ${{ secrets.REGISTRY_PASSWORD }}
           containerAppName: ${{ steps.set_website_name.outputs.website_name }}
           imageToDeploy: dddadelaide.azurecr.io/dddadelaidewebsite:${{ github.sha }}
           targetPort: 3000
