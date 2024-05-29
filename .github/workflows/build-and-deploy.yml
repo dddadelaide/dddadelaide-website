@@ -52,8 +52,6 @@ jobs:
         with:
           location: AustraliaEast
           containerAppName: ${{ steps.set_website_name.outputs.website_name }}
-          containerAppEnvironment: ${{ steps.set_website_name.outputs.website_name }}-env
-          resourceGroup: ${{ steps.set_website_name.outputs.website_name }}-rg
           imageToDeploy: dddadelaide.azurecr.io/dddadelaidewebsite:${{ github.sha }}
           targetPort: 3000
           ingress: external
