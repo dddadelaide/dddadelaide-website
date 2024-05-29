@@ -11,7 +11,7 @@ jobs:
   build-tag-push:
     permissions:
       id-token: write
-      contents: read
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
