@@ -11,7 +11,7 @@ jobs:
   build-tag-push:
     permissions:
       id-token: write
-      contents: read
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
@@ -20,24 +20,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Git user
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-
-      - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v1.1.1
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.2
         with:
-          versionSpec: '5.x'
-
-      - name: Determine Version
-        id: version
-        uses: gittools/actions/gitversion/execute@v1.1.1
-
-      - name: Create Git tag
-        run: |
-          git tag -a v${{ steps.version.outputs.semVer }} -m "Release ${{ steps.version.outputs.semVer }}"
-          git push origin v${{ steps.version.outputs.semVer }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Azure login
         uses: azure/login@v1
@@ -51,8 +38,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.version.outputs.semVer }} .
+          docker build -t ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }} .
 
       - name: Push the Docker image to ACR
         run: |
-          docker push ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.version.outputs.semVer }}
+          docker push ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }}
