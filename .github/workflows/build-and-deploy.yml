@@ -34,12 +34,12 @@ jobs:
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
 
       - name: Login to ACR via OIDC
-        run: az acr login --name ${{ secrets.REGISTRY_NAME }}
+        run: az acr login --name ${{ vars.REGISTRY_NAME }}
 
       - name: Build the Docker image
         run: |
-          docker build -t ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }} .
+          docker build -t ${{ vars.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }} .
 
       - name: Push the Docker image to ACR
         run: |
-          docker push ${{ secrets.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }}
+          docker push ${{ vars.REGISTRY_NAME }}.azurecr.io/myapp:${{ steps.tag_version.outputs.new_tag }}
