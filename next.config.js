@@ -4,6 +4,7 @@ const config = {
   experimental: {
     outputStandalone: process.env.STANDALONE_BUILD === 'true',
   },
+  output: 'standalone',
   async rewrites() {
     return {
       beforeFiles: [
