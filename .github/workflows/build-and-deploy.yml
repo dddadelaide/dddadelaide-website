@@ -20,12 +20,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v6.2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Azure login
         uses: azure/login@v1
         with:
@@ -38,8 +32,30 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ steps.tag_version.outputs.new_tag }} .
+          docker build -t ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ github.sha }} .
 
       - name: Push the Docker image to ACR
         run: |
-          docker push ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ steps.tag_version.outputs.new_tag }}
+          docker push ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ github.sha }}
+
+      - name: Determine Website Name
+        id: set_website_name
+        run: |
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/master" ]]; then
+            echo "::set-output name=website_name::dddadelaide-website"
+          else
+            echo "::set-output name=website_name::dddadelaide-website-test"
+          fi
+
+      - name: Deploy Website Revision
+        uses: azure/container-apps-deploy-action@v2
+        with:
+          location: Australia East
+          containerAppName: ${{ steps.set_website_name.outputs.website_name }}
+          containerAppEnvironment: ${{ steps.set_website_name.outputs.website_name }}-env
+          resourceGroup: ${{ steps.set_website_name.outputs.website_name }}-rg
+          imageToDeploy: dddadelaide.azurecr.io/dddadelaidewebsite:${{ github.sha }}
+          targetPort: 3000
+          ingress: external
+          environmentVariables: one=two three=four
+          disableTelemetry: true
