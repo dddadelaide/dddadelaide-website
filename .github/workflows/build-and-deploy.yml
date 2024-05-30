@@ -65,7 +65,7 @@ jobs:
             "NEXT_PUBLIC_SUBMIT_VOTE_URL=${{ vars.BACKEND_URL }}/api/SubmitVote"
             "NEXT_PUBLIC_GET_AGENDA_URL=${{ vars.BACKEND_URL }}/api/GetAgenda"
             "NEXT_PUBLIC_SUBMIT_FEEDBACK_URL=${{ vars.BACKEND_URL }}/api/SubmitFeedback"
-            "NEXT_PUBLIC_TESTING_MODE=${{ var.TESTING_MODE }}"
+            "NEXT_PUBLIC_TESTING_MODE=${{ vars.TESTING_MODE }}"
             "NEXT_PUBLIC_ELO_PAIR=${{ vars.BACKEND_URL }}/api/EloVotingGetPair"
             "NEXT_PUBLIC_ELO_VOTE=${{ vars.BACKEND_URL }}/api/EloVotingSubmitPair"
           disableTelemetry: true
