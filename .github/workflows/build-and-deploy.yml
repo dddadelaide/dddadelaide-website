@@ -33,7 +33,7 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build -t ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ github.sha }} .
-ß
+
       - name: Push the Docker image to ACR
         run: |
           docker push ${{ vars.REGISTRY_NAME }}.azurecr.io/dddadelaidewebsite:${{ github.sha }}
