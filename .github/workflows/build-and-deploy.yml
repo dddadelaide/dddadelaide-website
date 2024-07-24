@@ -55,7 +55,6 @@ jobs:
           targetPort: 3000
           ingress: external
           disableTelemetry: true
-          yamlConfigPath: ${{ github.workspace }}/website-configuration.yaml
 
   build-and-deploy-production:
     permissions:
