@@ -36,8 +36,8 @@ StyledSponsorLink.displayName = 'StyledSponsorLink'
 
 export const StyledSponsorLogo = styled('img')<StyledSponsorLogoProps>(
   {
-    maxWidth: calcRem(200),
-    maxHeight: calcRem(150),
+    maxWidth: calcRem(150),
+    maxHeight: calcRem(100),
   },
   ({ level }) =>
     level === SponsorType.Gold && {
