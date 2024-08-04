@@ -12,6 +12,8 @@ interface SponsorsProps {
 export const Sponsors = ({ sponsors, show, hideUpsell }: SponsorsProps) => {
   const showSponsors = show && sponsors.length > 0
 
+  if (hideUpsell) return null;
+
   if (!showSponsors) {
     return (
       <StyledSponsorsContainer>
