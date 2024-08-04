@@ -89,7 +89,7 @@ export const Sponsors = ({ sponsors, show, hideUpsell }: SponsorsProps) => {
             <h2>Gold Sponsors</h2>
             {goldSponsors.map((sponsor) => (
               <StyledSponsorLink href={sponsor.url} target="_blank" key={sponsor.name} title={sponsor.name}>
-                <StyledSponsorLogo src={sponsor.imageUrl} alt={sponsor.name} loading="lazy" />
+                <StyledSponsorLogo level={SponsorType.Gold} src={sponsor.imageUrl} alt={sponsor.name} loading="lazy" />
               </StyledSponsorLink>
             ))}
           </Fragment>
@@ -132,7 +132,7 @@ export const Sponsors = ({ sponsors, show, hideUpsell }: SponsorsProps) => {
 
         {communitySponsors.length > 0 && (
           <Fragment>
-            <h2>Community Partners</h2>
+            <h2>SA Sponsors</h2>
             {communitySponsors.map((sponsor) => (
               <StyledSponsorLink href={sponsor.url} target="_blank" key={sponsor.name} title={sponsor.name}>
                 <StyledSponsorLogo src={sponsor.imageUrl} alt={sponsor.name} loading="lazy" />

@@ -40,7 +40,7 @@ export const StyledSponsorLogo = styled('img')<StyledSponsorLogoProps>(
     maxHeight: calcRem(150),
   },
   ({ level }) =>
-    level === SponsorType.Platinum && {
+    level === SponsorType.Gold && {
       maxWidth: calcRem(300),
       maxHeight: calcRem(200),
     },
