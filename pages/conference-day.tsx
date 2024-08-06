@@ -64,8 +64,8 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       </Text>
       <Text>
         Rooms will be clearly marked on the day, as well as screens outside the rooms indicating upcoming sessions.
-        Rooms have no particular theme, attend whichever sessions most interest you at each time slot. Note: We have a
-        mix of 45 minute and 20 minute sessions. If you wish to move around while sessions are in progress then feel
+        Rooms have no particular theme, attend whichever sessions most interest you at each time slot.
+        If you wish to move around while sessions are in progress then feel
         free to do so, however take care to be respectful towards our presenters.
       </Text>
       <h2>Around the Venue</h2>
@@ -155,15 +155,16 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       <h2>Getting Help</h2>
       <h3>Issues &amp; Questions</h3>
       <Text>
-        Please feel free to speak to a member of the DDD Adelaide team who will be easily identifiable by their Volunteer
-        DDD Adelaide t-shirts.
+        Please feel free to speak to a member of the DDD Adelaide team who will be easily identifiable by their
+        Volunteer DDD Adelaide t-shirts.
       </Text>
       <Text>
         We'll identify the organisers and volunteers during the Welcome, and there will also be a help desk next to
         registration, attended at all times by members from our wonderful team.
       </Text>
       <Text>
-        You can also send a tweet to @dddadelaide or email <Link href="mailto:info@dddadelaide.com">info@dddadelaide.com</Link>.
+        You can also send a tweet to @dddadelaide or email{' '}
+        <Link href="mailto:info@dddadelaide.com">info@dddadelaide.com</Link>.
       </Text>
       <Text>
         If you wish to report an issue anonymously, you can do so using{' '}
@@ -183,8 +184,8 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       <h3>Feel Unwell During the Day?</h3>
       <StyledList>
         <li>
-          If you don't feel well ahead of DDD Adelaide, please stay home and tune into the livestreams instead. Please see
-          below for further details.
+          If you don't feel well ahead of DDD Adelaide, please stay home and tune into the livestreams instead. Please
+          see below for further details.
         </li>
         <li>
           If on the day you feel unwell, please mask up, inform the help desk and leave the event. Provide your details
