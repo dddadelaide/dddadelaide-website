@@ -108,7 +108,7 @@ export const Sponsors = ({ sponsors, show, hideUpsell }: SponsorsProps) => {
 
         {coffeeCartSponsors.length > 0 && (
           <Fragment>
-            <h2>Coffee Cart by:</h2>
+            <h2>Major Prize by</h2>
             {coffeeCartSponsors.map((sponsor) => (
               <StyledSponsorLink href={sponsor.url} target="_blank" key={sponsor.name} title={sponsor.name}>
                 <StyledSponsorLogo src={sponsor.imageUrl} alt={sponsor.name} loading="lazy" />

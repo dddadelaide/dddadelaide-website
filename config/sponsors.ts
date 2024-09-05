@@ -48,9 +48,24 @@ const silverSponsors: Sponsor[] = [
     type: SponsorType.Silver,
     url: 'https://www.taptu.com.au/',
   },
+  {
+    id: 'intopia',
+    imageUrl: '/static/images/sponsors/intopia.png',
+    name: 'Intopia',
+    type: SponsorType.Silver,
+    url: 'https://intopia.digital/',
+  }
 ]
 
-const coffeeCartSponsors: Sponsor[] = []
+const coffeeCartSponsors: Sponsor[] = [
+  // {
+  //   id: 'mantel',
+  //   imageUrl: '/static/images/sponsors/mantel.png',
+  //   name: 'Mantel Group',
+  //   type: SponsorType.CoffeeCart,
+  //   url: 'https://mantelgroup.com.au/',
+  // }
+]
 
 const serviceSponsors: Sponsor[] = []
 
@@ -89,6 +104,13 @@ const communityPartners: Sponsor[] = [
     name: 'Aligent',
     type: SponsorType.Community,
     url: 'https://aligent.com.au/',
+  },
+  {
+    id: 'tiimely',
+    imageUrl: '/static/images/sponsors/tiimely.png',
+    name: 'Tiimely',
+    type: SponsorType.Community,
+    url: 'https://tiimelyhome.com.au/',
   }
 ]
 
