@@ -81,8 +81,11 @@ jobs:
       - name: Login to ACR via OIDC
         run: az acr login --name ${{ vars.REGISTRY_NAME }}
 
-      - name: Write .env.production
-        run: echo '${{ toJSON(vars) }}' | jq -r 'keys[] as $k | "\($k)=\(.[$k])"' >> .env.production
+      - name: Write .env
+        run: echo '${{ toJSON(vars) }}' | jq -r 'keys[] as $k | "\($k)=\(.[$k])"' >> .env
+
+      - name: Check .env
+        run: cat .env
 
       - name: Build the Docker image
         run: |
