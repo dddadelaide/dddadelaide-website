@@ -192,11 +192,15 @@ const Conference: IConference = {
 
   Keynotes: [],
 
-  RoomNames: [],
+  RoomNames: [
+    "Braggs Theatre",
+    "Horace Lamb Theatre",
+    "Flentje Theatre"
+  ],
 
   Livestreams: [],
 
-  // TODO: Figure out what this is from.
+  // We don't need to care about this if ShowNextSessions is false
   SessionGroups: [
     {
       sessions: ['530801'],
