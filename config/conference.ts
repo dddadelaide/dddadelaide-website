@@ -16,7 +16,7 @@ const name = 'DDD Adelaide'
 const tagLine = `${name} is an inclusive non-profit conference for the Adelaide software community`
 
 const hideDate = false
-const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
+const ticketPurchasingOptions = TicketPurchasingOptions.WaitListOpen
 const staticDate = '2024-11-23T08:00'
 const date = zonedTimeToUtc(staticDate, '+10:30')
 const endDate = add(date, { days: 2, hours: 12 })
