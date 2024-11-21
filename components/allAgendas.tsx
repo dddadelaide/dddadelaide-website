@@ -15,7 +15,6 @@ const AllAgendas = ({ conference, conferenceInstance, dates }: AllAgendasProps):
     <p className="text-center">
       {conference.PreviousInstances.map((instance, i) => (
         <Fragment key={instance}>
-
           {instance === conferenceInstance ? (
             instance
           ) : (

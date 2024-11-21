@@ -20,9 +20,9 @@ export const Index: NextPage = () => {
           {conference.Name} {format(conference.Date, 'y')}
         </h2>
         <Text>
-          {conference.Name} is Adelaide's largest community run conference for the tech community. Our goal is to create an
-          approachable event that appeals to the whole community, especially people that don't normally get to attend or
-          speak at conferences. The conference is run on a Saturday, and strives to be inclusive of everyone in the
+          {conference.Name} is Adelaide's largest community run conference for the tech community. Our goal is to create
+          an approachable event that appeals to the whole community, especially people that don't normally get to attend
+          or speak at conferences. The conference is run on a Saturday, and strives to be inclusive of everyone in the
           Adelaide tech community.
         </Text>
       </section>

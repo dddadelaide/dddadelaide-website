@@ -40,5 +40,4 @@ export const StyledAnchor = styled('a')(({ theme }) => ({
       height: calcRem(35),
     },
   },
-
 }))

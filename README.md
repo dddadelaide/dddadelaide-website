@@ -4,7 +4,7 @@
 
 The DDD Adelaide website is a fork of the [DDD Perth website](https://github.com/dddwa/dddperth-website).
 
-The DDD Adelaide website is deployed to https://dddadelaide.com and is built using [Next.js](https://github.com/zeit/next.js/).
+The DDD Adelaide website is deployed to <https://dddadelaide.com> and is built using [Next.js](https://github.com/zeit/next.js/).
 
 ## Getting started
 
@@ -39,11 +39,11 @@ The DDD Adelaide website is deployed to https://dddadelaide.com and is built usi
 
 To re-purpose for another conference:
 
-1.  Update the files in the `config` directory
-2.  The theme of the site is handled in theme.ts and uses an 8px margin system
-3.  Components are styled using Emotion js styled components. Update styles within the component
-4.  Update the images in the `public` directory and sub directories
-5.  Update `pages/about.tsx`, `pages/sponsorship.tsx`, `pages/cfp.tsx` and `pages/agenda/*.tsx` with content specific to your conference
+1. Update the files in the `config` directory
+2. The theme of the site is handled in theme.ts and uses an 8px margin system
+3. Components are styled using Emotion js styled components. Update styles within the component
+4. Update the images in the `public` directory and sub directories
+5. Update `pages/about.tsx`, `pages/sponsorship.tsx`, `pages/cfp.tsx` and `pages/agenda/*.tsx` with content specific to your conference
 
 If you want to make tweaks to the pages then inspect the files in the `pages` directory and modify from there.
 

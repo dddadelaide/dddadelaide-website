@@ -86,7 +86,7 @@ const Conference: IConference = {
   },
   TagLine: tagLine,
   SiteDescription: `${tagLine}.`,
-  Goal: "Our goal is to create a fun, informative event that brings the Adelaide software community together.",
+  Goal: 'Our goal is to create a fun, informative event that brings the Adelaide software community together.',
   GoogleAnalyticsId: 'UA-122340004-2',
   TicketPrice: '$60',
   ChildcarePrice: null,
@@ -109,8 +109,7 @@ const Conference: IConference = {
   EmergencyContactPhoneNumber: '0438 080 385',
   MediaOfficerName: null,
 
-  AnonymousReportFormUrl:
-    'https://forms.gle/G1CuaumckcExMbcy5',
+  AnonymousReportFormUrl: 'https://forms.gle/G1CuaumckcExMbcy5',
 
   AnonymousVoting: true,
   PreferentialVoting: true,
@@ -181,8 +180,7 @@ const Conference: IConference = {
     NonEmergencyMedical: {
       Details: '',
       Phone: '',
-      MapUrl:
-        '',
+      MapUrl: '',
     },
   },
 
@@ -192,11 +190,7 @@ const Conference: IConference = {
 
   Keynotes: [],
 
-  RoomNames: [
-    "Braggs Theatre",
-    "Horace Lamb Theatre",
-    "Flentje Theatre"
-  ],
+  RoomNames: ['Braggs Theatre', 'Horace Lamb Theatre', 'Flentje Theatre'],
 
   Livestreams: [],
 

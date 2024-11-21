@@ -209,7 +209,7 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 16, minutes: 45 })} />
-                  <AgendaSession room={'Braggs Theatre'} alwaysShowRoom  fullWidth>
+                  <AgendaSession room={'Braggs Theatre'} alwaysShowRoom fullWidth>
                     <StyledTrackHeader>Prize Draw, Thank Yous, and Wrap Up</StyledTrackHeader>
                   </AgendaSession>
                 </StyledAgendaRow>

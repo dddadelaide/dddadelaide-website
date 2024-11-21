@@ -49,8 +49,7 @@ const About: NextPage = () => {
       <h2>What do we do with the money we raise?</h2>
       <Text>
         DDD Adelaide is organized by DDD Adelaide Inc., a non-profit association. All funds raised as part of running
-        DDD
-        Adelaide are used for:
+        DDD Adelaide are used for:
       </Text>
       <StyledList>
         <li>Running current, or future, DDD Adelaide events</li>
@@ -63,13 +62,12 @@ const About: NextPage = () => {
       <h2>What does DDD stand for?</h2>
       <Text>
         DDD Adelaide is a part of the Developer! Developer! Developer! series of events, focussed on providing a forum
-        for
-        all people involved in the creation of software in South Australia to get together and share their experiences
-        and
-        stories.
+        for all people involved in the creation of software in South Australia to get together and share their
+        experiences and stories.
       </Text>
-      <Text>DDD was set up with a number of key elements in mind, which hold true for all DDD conferences held
-        worldwide:</Text>
+      <Text>
+        DDD was set up with a number of key elements in mind, which hold true for all DDD conferences held worldwide:
+      </Text>
       <StyledList>
         <li>It is free / low cost</li>
         <li>It is on a Saturday</li>
@@ -83,13 +81,25 @@ const About: NextPage = () => {
           <img src="/static/images/adelaide/logo-dddperth.png" alt="DDD Perth logo" style={{ height: '125px' }} />
         </SafeLink>{' '}
         <SafeLink href="https://dddmelbourne.com/" target="_blank">
-          <img src="/static/images/adelaide/logo-dddmelbourne-2019.jpg" alt="DDD Melbourne logo" style={{ height: '125px' }} />
+          <img
+            src="/static/images/adelaide/logo-dddmelbourne-2019.jpg"
+            alt="DDD Melbourne logo"
+            style={{ height: '125px' }}
+          />
         </SafeLink>{' '}
         <SafeLink href="http://next.dddsydney.com.au/" target="_blank">
-          <img src="/static/images/adelaide/logo-dddsydney-2019.png" alt="DDD Sydney logo" style={{ height: '125px' }} />
+          <img
+            src="/static/images/adelaide/logo-dddsydney-2019.png"
+            alt="DDD Sydney logo"
+            style={{ height: '125px' }}
+          />
         </SafeLink>{' '}
         <SafeLink href="http://dddbrisbane.com/" target="_blank">
-          <img src="/static/images/adelaide/logo-dddbrisbane-2019.jpg" alt="DDD Brisbane logo" style={{ height: '125px' }} />
+          <img
+            src="/static/images/adelaide/logo-dddbrisbane-2019.jpg"
+            alt="DDD Brisbane logo"
+            style={{ height: '125px' }}
+          />
         </SafeLink>
       </StyledLogoWrapper>
     </PageWithSidebar>
