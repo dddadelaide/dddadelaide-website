@@ -165,14 +165,11 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
         You can also send a tweet to @dddadelaide or email{' '}
         <Link href="mailto:info@dddadelaide.com">info@dddadelaide.com</Link>.
       </Text>
-      {/* <Text>
+      <Text>
         If you wish to report an issue anonymously, you can do so using{' '}
-        <SafeLink href="https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS3674sSFwiFHpg5usp1ihu5URDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNSQlQCN0PWcu">
-          this form
-        </SafeLink>
-        . We can't follow up an anonymous report, but we will fully investigate it and take whatever action we can to
-        prevent a recurrence.
-      </Text> */}
+        <SafeLink href={conference.AnonymousReportFormUrl}>this form</SafeLink>. We can't follow up an anonymous report,
+        but we will fully investigate it and take whatever action we can to prevent a recurrence.
+      </Text>
       <div>
         Emergency contact numbers:
         <StyledList>
