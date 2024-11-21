@@ -16,9 +16,7 @@ interface AgendaPageProps {
   sessionId?: string
 }
 
-
 const AgendaPage: NextPage<AgendaPageProps> = ({ sessions, sessionId }) => {
-
   const [currentDate] = React.useState(dateTimeProvider.now())
   const dates = getConferenceDates(Conference2023, currentDate)
 
@@ -31,8 +29,8 @@ const AgendaPage: NextPage<AgendaPageProps> = ({ sessions, sessionId }) => {
           <p>
             The agenda has not yet been finalised; please come back on{' '}
             {formatInTimeZone(Conference2023.AgendaPublishedFrom, Conference2023.TimeZone, dates.DateDisplayFormat)}{' '}
-            {formatInTimeZone(Conference2023.AgendaPublishedFrom, Conference2023.TimeZone, dates.TimeDisplayFormat)}. In the
-            meantime, check out our previous agendas below.
+            {formatInTimeZone(Conference2023.AgendaPublishedFrom, Conference2023.TimeZone, dates.TimeDisplayFormat)}. In
+            the meantime, check out our previous agendas below.
           </p>
         )}
         {dates.AgendaPublished && (
@@ -58,7 +56,9 @@ const AgendaPage: NextPage<AgendaPageProps> = ({ sessions, sessionId }) => {
         <Sponsors
           show={!Conference2023.HideSponsors}
           hideUpsell={Conference2023.HideSponsorshipUpsell}
-          sponsors={Conference2023.Sponsors.filter((s) => s.type === SponsorType.Gold || s.type === SponsorType.Platinum)}
+          sponsors={Conference2023.Sponsors.filter(
+            (s) => s.type === SponsorType.Gold || s.type === SponsorType.Platinum,
+          )}
         />
         <AllAgendas conference={Conference2023} conferenceInstance={Conference2023.Instance} dates={dates} />
       </div>

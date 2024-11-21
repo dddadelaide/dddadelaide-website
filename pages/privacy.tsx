@@ -14,8 +14,8 @@ export default function Privacy({ conferenceName }: PrivacyProps) {
       <Text tag="h1">Privacy Policy</Text>
 
       <Text>
-        <strong>DDD Adelaide Inc.</strong> is committed to providing quality services to you and this policy outlines our
-        ongoing obligations to you in respect of how we manage your Personal Information.
+        <strong>DDD Adelaide Inc.</strong> is committed to providing quality services to you and this policy outlines
+        our ongoing obligations to you in respect of how we manage your Personal Information.
       </Text>
 
       <Text>
@@ -54,28 +54,29 @@ export default function Privacy({ conferenceName }: PrivacyProps) {
 
       <Text tag="h2">How is this information collected?</Text>
       <Text>
-        Personal Information is collected when you register to attend a DDD Adelaide Inc. event, submit a talk proposal to DDD
-        Adelaide, vote on talks you’d like to see at DDD Adelaide, apply for a DDD Adelaide Inc. competition/program, or subscribe
-        to our email newsletter via this website.
+        Personal Information is collected when you register to attend a DDD Adelaide Inc. event, submit a talk proposal
+        to DDD Adelaide, vote on talks you’d like to see at DDD Adelaide, apply for a DDD Adelaide Inc.
+        competition/program, or subscribe to our email newsletter via this website.
       </Text>
 
       <Text tag="h2">Third Parties</Text>
       <Text>
-        Your Personal Information is accessible only by DDD Adelaide Inc. members and volunteers, and we will respect and
-        protect your privacy as set out in this Privacy Policy. We will share your personal data with third parties only
-        in the ways that are described in this Privacy Policy – and do not and will not sell your personal data.
+        Your Personal Information is accessible only by DDD Adelaide Inc. members and volunteers, and we will respect
+        and protect your privacy as set out in this Privacy Policy. We will share your personal data with third parties
+        only in the ways that are described in this Privacy Policy – and do not and will not sell your personal data.
       </Text>
 
       <Text>
-        DDD Adelaide Inc. shares your personal data with third parties only with your express consent or under another lawful
-        basis for processing. We share your data with vendors such as host and cloud service providers, marketing and
-        mailing agencies, for the purposes of improving our communications with you.
+        DDD Adelaide Inc. shares your personal data with third parties only with your express consent or under another
+        lawful basis for processing. We share your data with vendors such as host and cloud service providers, marketing
+        and mailing agencies, for the purposes of improving our communications with you.
       </Text>
 
       <Text>
-        DDD Adelaid Inc. relies on certain third party services as part of our service offering to you. These third party
-        services operate under their own privacy policies which you should review, understand and consent to separately
-        from this policy. This policy does not endorse nor incorporate policies maintained by third party services.
+        DDD Adelaid Inc. relies on certain third party services as part of our service offering to you. These third
+        party services operate under their own privacy policies which you should review, understand and consent to
+        separately from this policy. This policy does not endorse nor incorporate policies maintained by third party
+        services.
       </Text>
 
       <Text>
@@ -127,8 +128,8 @@ export default function Privacy({ conferenceName }: PrivacyProps) {
       </Text>
 
       <Text>
-        DDD Adelaide Inc. will not charge any fee for your access request, but may charge an administrative fee for providing
-        a copy of your Personal Information.
+        DDD Adelaide Inc. will not charge any fee for your access request, but may charge an administrative fee for
+        providing a copy of your Personal Information.
       </Text>
 
       <Text>
@@ -141,8 +142,8 @@ export default function Privacy({ conferenceName }: PrivacyProps) {
         It is an important to us that your Personal Information is up to date. We will take reasonable steps to make
         sure that your Personal Information is accurate, complete and up-to-date. If you find that the information we
         have is not up to date or is inaccurate, please advise us as soon as practicable at{' '}
-        <a href="mail:toinfo@dddadelaide.com">info@dddadelaide.com</a> so we can update our records and ensure we can continue
-        to provide quality services to you.
+        <a href="mail:toinfo@dddadelaide.com">info@dddadelaide.com</a> so we can update our records and ensure we can
+        continue to provide quality services to you.
       </Text>
 
       <Text>

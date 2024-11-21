@@ -20,7 +20,8 @@ declare global {
 }
 
 const getTitle = (title: string, date: Date, name: string, showDate: boolean, timezone: string) =>
-  `${title !== 'Home' ? title + ' - ' : ''}${name}${showDate ? ` | ${formatInTimeZone(date, timezone, 'do MMMM yyyy')}` : ''
+  `${title !== 'Home' ? title + ' - ' : ''}${name}${
+    showDate ? ` | ${formatInTimeZone(date, timezone, 'do MMMM yyyy')}` : ''
   }`
 
 export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {

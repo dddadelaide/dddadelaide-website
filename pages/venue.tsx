@@ -30,9 +30,10 @@ const VenuePage: NextPage = () => {
             .
           </Text>
           <Text>
-            Further venue information can be found on <SafeLink
-            href={'https://www.adelaide.edu.au/campuses/north-terrace'} target="_blank">The University of Adelaide's
-            Website.</SafeLink>
+            Further venue information can be found on{' '}
+            <SafeLink href={'https://www.adelaide.edu.au/campuses/north-terrace'} target="_blank">
+              The University of Adelaide's Website.
+            </SafeLink>
           </Text>
 
           <section>

@@ -54,7 +54,7 @@ const silverSponsors: Sponsor[] = [
     name: 'Intopia',
     type: SponsorType.Silver,
     url: 'https://intopia.digital/',
-  }
+  },
 ]
 
 const coffeeCartSponsors: Sponsor[] = [
@@ -64,7 +64,7 @@ const coffeeCartSponsors: Sponsor[] = [
     name: 'Mantel Group',
     type: SponsorType.CoffeeCart,
     url: 'https://mantelgroup.com.au/',
-  }
+  },
 ]
 
 const serviceSponsors: Sponsor[] = []
@@ -111,7 +111,7 @@ const communityPartners: Sponsor[] = [
     name: 'Tiimely',
     type: SponsorType.Community,
     url: 'http://tiimely.com/',
-  }
+  },
 ]
 
 const Sponsors: Sponsor[] = [
