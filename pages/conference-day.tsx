@@ -154,24 +154,25 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       <h2>Getting Help</h2>
       <h3>Issues &amp; Questions</h3>
       <Text>
-        Please feel free to speak to a member of the DDD Adelaide team who will be easily identifiable by their Volunteer
-        DDD Adelaide t-shirts.
+        Please feel free to speak to a member of the DDD Adelaide team who will be easily identifiable by their
+        Volunteer DDD Adelaide t-shirts.
       </Text>
       <Text>
         We'll identify the organisers and volunteers during the Welcome, and there will also be a help desk next to
         registration, attended at all times by members from our wonderful team.
       </Text>
       <Text>
-        You can also send a tweet to @dddadelaide or email <Link href="mailto:info@dddadelaide.com">info@dddadelaide.com</Link>.
+        You can also send a tweet to @dddadelaide or email{' '}
+        <Link href="mailto:info@dddadelaide.com">info@dddadelaide.com</Link>.
       </Text>
-      <Text>
+      {/* <Text>
         If you wish to report an issue anonymously, you can do so using{' '}
         <SafeLink href="https://forms.office.com/Pages/ResponsePage.aspx?id=8IU585acE0S9pvuDhIEiS3674sSFwiFHpg5usp1ihu5URDVGTks2N1VOQVBWWUU1VFJESDZMNlkxNSQlQCN0PWcu">
           this form
         </SafeLink>
         . We can't follow up an anonymous report, but we will fully investigate it and take whatever action we can to
         prevent a recurrence.
-      </Text>
+      </Text> */}
       <div>
         Emergency contact numbers:
         <StyledList>
@@ -181,10 +182,6 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       </div>
       <h3>Feel Unwell During the Day?</h3>
       <StyledList>
-        <li>
-          If you don't feel well ahead of DDD Adelaide, please stay home and tune into the livestreams instead. Please see
-          below for further details.
-        </li>
         <li>
           If on the day you feel unwell, please mask up, inform the help desk and leave the event. Provide your details
           so we can check you're going okay and then seek medical assistance.
