@@ -19,19 +19,18 @@ const TicketPage: NextPage = () => {
     <Main title="Tickets" description={`Purchase tickets for ${conference.Name}`}>
       <h1>Tickets</h1>
 
-      {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
-        <Text>
-          Tickets have sold out, but we are asking people to add themselves to the waitlist since it's likely we will
-          release more tickets. Tickets will be released to the waitlist on a first-come, first-served basis so get your
-          name in quick if you want to attend.
-        </Text>
-      )}
-
       <FaqList faqs={faqs.filter((f) => f.Category === 'tickets')} />
 
       {conference.TicketsProviderId === TicketsProvider.Eventbrite && (
         <Eventbrite eventId={conference.TicketsProviderEventId} />
       )}
+      {/* {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && ( */}
+      <Text>
+        Tickets have sold out, but we are asking people to add themselves to the waitlist since it's likely we will
+        release more tickets. Tickets will be released to the waitlist on a first-come, first-served basis so get your
+        name in quick if you want to attend.
+      </Text>
+      {/* )} */}
       {conference.TicketsProviderId === TicketsProvider.Tito && dates.RegistrationOpen && (
         <Tito accountId={conference.TicketsProviderAccountId} eventId={conference.TicketsProviderEventId} />
       )}
