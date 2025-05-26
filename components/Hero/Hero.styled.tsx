@@ -9,25 +9,29 @@ export const StyledHero = styled('section')(({ theme }) => ({
   justifyContent: 'flex-end',
   padding: calcRem(80, theme.metrics.md),
   marginBottom: theme.metrics.md,
-  backgroundImage: `url(/hero/hero_w640.jpg)`,
+  backgroundImage: `url(/hero/hero_image_640w.jpg)`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
 
   [breakpoint('sm')]: {
-    backgroundImage: `url(/hero/hero_w768.jpg)`,
+    backgroundImage: `url(/hero/hero_image_768w.jpg)`,
   },
 
   [breakpoint('md')]: {
-    backgroundImage: `url(/hero/hero_w1024.jpg)`,
+    backgroundImage: `url(/hero/hero_image_1024w.jpg)`,
   },
 
   [breakpoint('lg')]: {
-    backgroundImage: `url(/hero/hero_w1280.jpg)`,
+    backgroundImage: `url(/hero/hero_image_1280w.jpg)`,
   },
 
   [breakpoint('xl')]: {
-    backgroundImage: `url(/hero/hero_w1920.jpg)`,
+    backgroundImage: `url(/hero/hero_image_1920w.jpg)`,
+  },
+
+  [breakpoint('xxl')]: {
+    backgroundImage: `url(/hero/hero_image_2560w.jpg)`,
   },
 }))
 StyledHero.displayName = 'StyledHero'

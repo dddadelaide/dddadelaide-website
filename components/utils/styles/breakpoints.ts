@@ -4,6 +4,7 @@ interface Breakpoints {
   md: number
   lg: number
   xl: number
+  xxl: number
 }
 
 const breakpointSizes: Breakpoints = {
@@ -12,6 +13,7 @@ const breakpointSizes: Breakpoints = {
   md: 768,
   lg: 1024,
   xl: 1280,
+  xxl: 1920,
 }
 
 export const breakpoint = (size: keyof Breakpoints): string => `@media (min-width: ${breakpointSizes[size]}px)`
