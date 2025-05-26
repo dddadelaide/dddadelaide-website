@@ -5,7 +5,6 @@ import { PageWithSidebar } from 'layouts/withSidebar'
 import { calcRem } from 'components/utils/styles/calcRem'
 import styled from '@emotion/styled'
 import { NextPage } from 'next'
-import Image from 'next/image'
 import { useConfig } from 'Context/Config'
 
 const StyledLogoWrapper = styled('div')<{ logoMaxWidth?: number }>(({ theme, logoMaxWidth = 250 }) => ({
