@@ -38,9 +38,8 @@ const About: NextPage = () => {
         <li>Having a democratically chosen agenda</li>
         <li>Focussing on creating a safe and inclusive environment where everyone is welcome</li>
       </StyledList>
-      <StyledLogoWrapper>
-        <img src="/static/images/adelaide/logo.png" alt="DDD Adelaide logo" style={{ width: '250px' }} />
-      </StyledLogoWrapper>
+      <img src="/static/images/adelaide/2025-1.jpg" alt="DDD Adelaide Crowd" />
+      <br />
       <Text>
         Furthermore, {conference.Name} aims to both create opportunities for underrepresented minorities, juniors and
         first-time speakers to present as well as influence the wider software industry to encourage such opportunities

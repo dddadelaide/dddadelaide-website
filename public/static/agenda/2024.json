@@ -1,0 +1,480 @@
+[
+  {
+    "Id": "b28db609-d236-44e1-a1c6-77c33f6518b7",
+    "Title": "Adopting TypeScript in a (larger) legacy code base",
+    "Abstract": "Starting a new project from scratch with TypeScript is relatively easy. You can configure things in strict mode and reap the benefits of TS. Migrating a real world application from JavaScript is a little messier.\r\n\r\nIn this talk i'll walk through the strategies we used at Qwilr to migrate an 8 year old JavaScript/CoffeeScript code base to TypeScript and how you can progressively ratchet up the quality of the type safety in a real world, actively developed, legacy codebase without taking away focus from continued product development.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "734227",
+    "Tags": [
+      "War Stories",
+      "Coding"
+    ],
+    "Presenters": [
+      {
+        "Id": "071fd638-afaa-49d5-9313-219e2985a469",
+        "Name": "Michael Timbs",
+        "Tagline": "Staff Engineer @ Qwilr",
+        "Bio": "TBD",
+        "ProfilePhotoUrl": "https://sessionize.com/image/d5e4-400o400o1-MQdaGr8MiU58Me5G9d1gfj.jpg",
+        "TwitterHandle": "michael_timbs",
+        "WebsiteUrl": "https://michaeltimbs.me/"
+      }
+    ]
+  },
+  {
+    "Id": "89f16866-071b-4973-8be7-15a3f7a47d28",
+    "Title": "Agile: Use it or lose It. Don't abuse it!",
+    "Abstract": "Agile is great, except when it's not. Then it's terrible. And oh boy, have I seen some things... \r\n\r\nIn this talk I'll share the best, the worst, and the should-never-have-been parts of agile projects that I've seen over the years. There'll be practical tips for you to take away to start improving your own projects too.\r\n\r\nAre we still talking about agile in 2024? Yes, because we have to.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "735098",
+    "Tags": [
+      "Product Management",
+      "Agile"
+    ],
+    "Presenters": [
+      {
+        "Id": "86b5cb28-059c-43ee-9471-676a4ccf96ca",
+        "Name": "Chris Gilbert",
+        "Tagline": "Consulting Director @ SixPivot / Co-organiser @ DDD Brisbane / Common Sense Enthusiast",
+        "Bio": "Chris is a software consultant with more years than he cares to admit. In that time he's become extremely passionate about how different projects run, how different people tick, and how there's always six different ways to solve any technical problem.\r\n\r\nAs a speaker, Chris has presented at user groups and conferences across Australia on a range of technical and non-technical topics. He loves sharing war stories and giving people something tangible to take home from every session. \r\n\r\nChris is the Consulting Director at SixPivot. In his spare time he co-organises DDD Brisbane, a not-for-profit community event run by developers for developers.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/bb9e-400o400o1-9rVinQwmjuDVSxcq7DPd1k.jpg",
+        "TwitterHandle": "http://twitter.com/chriswithpants",
+        "WebsiteUrl": "https://www.linkedin.com/in/chriswithpants/"
+      }
+    ]
+  },
+  {
+    "Id": "bfd58b22-033a-4225-a4c0-2a66d6b96f6b",
+    "Title": "API-First Development: Why It Matters and How to Get Started",
+    "Abstract": "The API-first approach is gaining significant traction as a modern development methodology in today's fast-paced software development landscape. Unlike traditional development models, where APIs are often an afterthought, the API-first approach places APIs at the core of the development process. This ensures that all system components, from front-end interfaces to back-end services, are built with a clear, consistent, well-documented contract.\r\n\r\nThis session will explore why the API-first approach is increasingly essential in creating scalable, flexible, and maintainable applications. Attendees will learn how adopting an API-first mindset can enhance collaboration across teams, streamline development processes, and improve the overall quality and consistency of software products.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "745104",
+    "Tags": [
+      "Strategy",
+      "APIs"
+    ],
+    "Presenters": [
+      {
+        "Id": "89a520e1-5176-4fa6-849c-ac2e18710132",
+        "Name": "Seminda Rajapaksha",
+        "Tagline": "Sonicsoft, Founder",
+        "Bio": "With 17 years of experience designing and developing commercial software, I deeply understand various technologies and the entire project lifecycle. My expertise spans from design and implementation to integration and testing. I thrive as a collaborative team member and a leader, guiding teams to deliver large-scale applications within deadlines and utilizing diverse development methodologies.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/34b8-400o400o1-TRUB89zLtdxgzwwV34xcot.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/seminda/"
+      }
+    ]
+  },
+  {
+    "Id": "6f005ba5-43b9-4825-bc9b-7547ae6baedc",
+    "Title": "Boosting Developer Experience using an Internal Developer Portal",
+    "Abstract": "This presentation will explore key considerations for boosting developer experience and the use of an Internal Developer Portal. I will cover the essential steps and considerations involved in creating a successful internal developer portal and delve into the key benefits of such a portal and core components.\r\n\r\nKey topics include:\r\n\r\nUnderstanding the Value: Exploring the advantages of an internal developer portal, including improved efficiency, collaboration, and knowledge sharing.\r\n\r\nCore Components: Identifying the essential elements of a developer portal, such as documentation, APIs, code repositories, and metrics.\r\n\r\nDesign and Implementation: Discussing best practices for designing and implementing an effective developer portal, including user experience, accessibility, and scalability.\r\n\r\nIntegration with Existing Tools: Exploring how to seamlessly integrate the developer portal with your existing development tools and workflows.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "746546",
+    "Tags": [
+      "DevOps",
+      "Continuous Delivery"
+    ],
+    "Presenters": [
+      {
+        "Id": "6fb5fb09-37af-497a-baef-6c2ab31aed51",
+        "Name": "Sam Fernando",
+        "Tagline": "Head of Engineering - G'day Group",
+        "Bio": "Sam Fernando is a Technology Specialist working at G'day Group as Head of Engineering having more than 17+ years of experience. He design enterprise applications and help businesses with digital transformations. Sam participates in all aspects of architecture and development, R&D to implementation. He’s also the co-lead of the Microsoft Azure User Group in Adelaide and does public speaking at various events organised by .Net, Azure & Dynamics communities.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/6e78-400o400o1-23-1890-48a0-99ea-885472e4d708.be0a3709-bed4-4ed5-a6a4-6671e9ee6013.png",
+        "TwitterHandle": "shamiraf",
+        "WebsiteUrl": "https://www.linkedin.com/in/samfernandoau/"
+      }
+    ]
+  },
+  {
+    "Id": "3bb8f677-827c-4b4a-b59c-051eb1fbf994",
+    "Title": "Building a modern data-heavy platform on Kubernetes",
+    "Abstract": "MaxMine has just completed re-building our platform from the ground up using Kubernetes and making heavy use of open-source software. This session will explore how we established a modern architecture for both serving, and heavy data-processing workloads, some of the challenges faced along the way, and of course some of the wins too.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "746959",
+    "Tags": [
+      "DevOps",
+      "Kubernetes"
+    ],
+    "Presenters": [
+      {
+        "Id": "53bd8d35-97f2-4d25-8fd7-a4bbc1244b8d",
+        "Name": "James Schulte",
+        "Tagline": "Head of Platform @ MaxMine",
+        "Bio": "James is the Head of Platform at MaxMine where he works on bringing modern analytics into mining. He joined MaxMine in 2018 in data analytics, moving into platform engineering in 2021. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/32ff-400o400o1-pUSenKkGx5bw4D5NNrV2SS.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/james-schulte/"
+      }
+    ]
+  },
+  {
+    "Id": "e8f434e6-8299-4537-8149-e3b042c77da6",
+    "Title": "Houston, We Have a Deployment!",
+    "Abstract": "In the boundless expanse of software development, deploying new features can often feel like launching a spacecraft into the unknown. Let’s embark on a mission to explore the critical aspects of feature management, because it can be so much more than just toggling features on and off. What if product owners were involved in defining the features in a product? What if developers didn’t need to have the mind of a CTO to develop the product?\r\n\r\nJust as astronauts meticulously prepare for a space mission, we delve into the strategies for planning and executing feature rollouts, ensuring that each ‘launch’ is successful and each ‘orbit’ around the product lifecycle is stable and efficient. This talk includes live demos, lots of code, a new way to manage features, quite possibly something catching fire, and definitely llamas",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "730865",
+    "Tags": [
+      "Backend Development",
+      "Cloud"
+    ],
+    "Presenters": [
+      {
+        "Id": "5c3e6e3e-cc87-4e57-bbfa-f8f1053b96af",
+        "Name": "Lars Klint",
+        "Tagline": "Llama Wrangler - Home Automation Nerd - Microsoft MVP",
+        "Bio": "Lars is a Principal Advocate with Arkahna in Australia, an author, trainer, Microsoft Azure MVP, community leader, aspiring YouTube host and part time classic car collector. He is heavily involved in the space of cloud computing services, especially Azure, and is a published author, solution architect and writer for numerous publications. He has been a part of the software development community for the past 20 years and co-organises the DDD Melbourne community conference, organises developer events with Microsoft, and also runs a part time car restoration business. He has spoken at numerous technical events around the world and is an expert in Australian Outback Internet.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/eb30-400o400o1-MwHogC8MDk26zpda1ZcaP6.JPG",
+        "TwitterHandle": "larsklint",
+        "WebsiteUrl": "https://larsklint.com/"
+      }
+    ]
+  },
+  {
+    "Id": "55654f24-57b7-4f8b-9ce5-fa143a2a8c8b",
+    "Title": "Human Shaped Microservices - A people centric approach to modelling systems",
+    "Abstract": "Microservice architectures provide some amazing benefits for scale, fault tolerance, and the ability to build teams quickly if necessary.\r\n\r\nHowever too many teams seem to get caught up in the tech stack, and the results can be disastrous. While diving straight in with the latest hyped tools is fun, it’s easy to forget about design.\r\n\r\nThis talk will cover some common pitfalls and anti-patterns seen in the real world, as well as how to apply some Domain Driven Design concepts such as Bounded Contexts at an architectural level. \r\n\r\nBy modelling your domain better we can solve a host of problems before they happen, and give your next project a much better chance at success.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "745067",
+    "Tags": [
+      "Backend Development",
+      "Microservices"
+    ],
+    "Presenters": [
+      {
+        "Id": "13357ed7-88c3-4b1f-8f49-6fe88ebd7abb",
+        "Name": "Damian Maclennan",
+        "Tagline": "Consultant CTO, Technologist, Trainer",
+        "Bio": "Damian Maclennan is an experienced software architect, developer, trainer, and agile engineering consultant.\r\n\r\nIn his 25 year career he has designed software architecture for companies of all sizes, been a CTO for early stage startups, developed and run high profile and high traffic websites, as well as mentored and trained hundreds of developers.\r\n\r\nThroughout this time he has developed deep expertise on the architectural patterns, engineering techniques, and team dynamics needed to make successful software.\r\n\r\nHe is currently an independent Consultant CTO, and trainer for Stack Mechanics",
+        "ProfilePhotoUrl": "https://sessionize.com/image/7333-400o400o1-90-945b-4289-8e6b-8c8215d1a4a9.0a4f4dd0-5ab3-4ee6-a9c4-2f7e8ac3f64c.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://damianm.com/"
+      }
+    ]
+  },
+  {
+    "Id": "eb0ebf1b-4972-417d-8af5-3749a13e2e3f",
+    "Title": "Let There Be Light: Two Journeys with Distributed Tracing",
+    "Abstract": "Debugging modern systems can feel like searching for answers in the dark. Distributed tracing brings clarity by showing how requests flow through complex services. In this talk, we’ll explore distributed tracing with OpenTelemetry, comparing the introduction of tracing in two different environments—one using a commercial solution and the other an open-source stack. We’ll dive into the unique challenges and outcomes from each approach, highlighting key takeaways for choosing and implementing distributed tracing tools. This session provides a clear and practical roadmap for anyone looking to improve their system observability.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "746362",
+    "Tags": [
+      "Backend Development",
+      "Tooling"
+    ],
+    "Presenters": [
+      {
+        "Id": "af1ccb93-83ed-40ad-9102-ea17674a396e",
+        "Name": "Matt Magin",
+        "Tagline": "Staff Software Engineer - MaxMine",
+        "Bio": "Matt is a Staff Software Engineer currently working in the Product Engineering Team at MaxMine, with a focus on backend service development in Python and Go. Matt has over 20 years of experience in software development and engineering, performing both IC and management roles across many different industries and tech stacks. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/e08f-400o400o1-XEz8aWDi6BnVS5HynyiMP3.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/matt-magin-9a4ba6185/"
+      }
+    ]
+  },
+  {
+    "Id": "5ab14ff0-548c-40d2-bb5c-590416f3d650",
+    "Title": "Mind Your Code (Human biases in programming)",
+    "Abstract": "You know how sometimes you can stare at a page of code and immediately see that obscure race condition that has hidden itself from all other programmers for years? But then sometimes, you spend 3 hours failing to see a comma in the wrong position even though the compiler has been telling you explicitly what the issue is? This talk is about our cognitive biases and how they impact our programming and debugging and some tips and tricks to avoid them. Join me as we delve into our brains and attempt to see our true selves, face to face, in our code.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "746505",
+    "Tags": [
+      "Soft Skills",
+      "Coding"
+    ],
+    "Presenters": [
+      {
+        "Id": "73ca1a72-d525-4f19-a1bf-126b4dd01831",
+        "Name": "Tony Albrecht",
+        "Tagline": "Riot Games, Principal Software Engineer",
+        "Bio": "Tony Albrecht has been building and optimising game engines for over 25 years. His first game was released on PS2 when he worked for Ratbag here in Adelaide and since then he’s worked for and with some of the biggest game companies in the world, including Pandemic/EA, Sony, Insomniac Games and now Riot Games. He’s been building and maintaining Riot’s Hextech Engine for the last 10 years, supporting League of Legends and Teamfight Tactics on multiple platforms, for millions of players, releasing updates every 2 weeks. He has very strong opinions about programming and optimisation.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/d1d7-400o400o1-4rTgTs3GH7e6aLeUsSBmDA.png",
+        "TwitterHandle": "TonyAlbrecht",
+        "WebsiteUrl": "https://www.linkedin.com/in/tonyalbrecht/"
+      }
+    ]
+  },
+  {
+    "Id": "1dec24d7-5cb4-440d-b6ff-73cee21902e7",
+    "Title": "So they gave me a dumpster fire of a codebase.... Now what?",
+    "Abstract": "... and let's pretend you had nothing to do with creating said dumpster fire.\r\n\r\nIn my talk last year on “Architecting for Longevity,” we explored strategies to help prevent systems from deteriorating into a state of total collapse. This year, we're diving into the reality of what happens when you’re handed a project that’s already a full-blown dumpster fire.\r\n\r\nLet me be your guide as we go through the process of navigating and rebuilding legacy systems in crisis. I'll cover practical strategies for restoring feature velocity and regaining stability in a system that has ground to a halt. Discover how to conduct a gradual and controlled demolition of the chaos, ensuring that when rebuilding, mistakes are not merely repeated but learned from.\r\n\r\nThis talk will provide actionable insights into how to stabilize and incrementally improve a troubled system while avoiding the pitfalls that led to its current state. Join me as we explore how to turn a disaster into an opportunity, and ensure that your next rebuild is both resilient and forward-thinking.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "746103",
+    "Tags": [
+      "War Stories",
+      "Coding"
+    ],
+    "Presenters": [
+      {
+        "Id": "bbbbaccb-3def-4d6d-a0bd-ee1150fd2c7f",
+        "Name": "Ryan Craig",
+        "Tagline": "Quoterite - CTO",
+        "Bio": "Ryan is currently the CTO at Quoterite, he has worked at multiple start-ups (including his own consultancy) and architected systems across most platforms and is an avid believer in the benefits of good Software Architecture. He has a passion for functional programming, UX, DX, DevOps and his favourite thing is deleting code.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/fa44-400o400o1-KxY18NsjpkrAUHX2wVARgx.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": null
+      }
+    ]
+  },
+  {
+    "Id": "7c369dd1-0603-4787-b5b7-1a219e31c5d1",
+    "Title": "Syncing clocks without a DeLorean",
+    "Abstract": "Time series data is used everywhere, but we often take our trusty x-axis for granted. Take a journey through time with me, as we delve into how we synchronise time sources to make sure the juicy data we’re looking at represents the right time, in the right order. ",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "747025",
+    "Tags": [
+      "Data & Analytics",
+      "Coding"
+    ],
+    "Presenters": [
+      {
+        "Id": "3be1373d-5c5e-4e51-86c8-b650c68249b3",
+        "Name": "Millie Russell",
+        "Tagline": "Graduate Analytics Engineer at MaxMine",
+        "Bio": "Millie is an avid gardener, pilot, dog lover and analytics engineer at MaxMine, where she specialises in data science to help increase safety, productivity and sustainability on open-pit mine sites. She picked up Python in 2023 after spending a bit of time in Matlab at university, so is fresh on the developer scene – green but keen!",
+        "ProfilePhotoUrl": "https://sessionize.com/image/ffbe-400o400o1-GS11xiBSprZTLsqWY93Vfi.png",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/millie-russell-6a9b3a77"
+      }
+    ]
+  },
+  {
+    "Id": "4d876c88-ffc7-402b-987d-e53813a50d8d",
+    "Title": "Technical Interview Processes - Surely We Can Do Better",
+    "Abstract": "A lot of people have known for a lot of years that the technical interview process has many, many flaws. From pseudo-code white boarding to writing complex algorithms, to multi-day take home tests, bad practices still abound. Additionally many interviewers suffer from lack of focused training (the belief that once you have 5 years coding experience you are a skilled interviewer), gatekeeping, and the belief that the interviewer should be the interrogator.\r\n\r\nThis talk will cover some better ways to set up the interview process (and culture) for technical hires. They include:\r\n\r\nWhat should be avoided\r\nHow to set up a interview training program\r\nWhat types and how many interviews should your process contain.\r\nUnderstanding candidate care and the philosophy that interviewing is a two way street.\r\nHow to evaluate your companies interviewers and how you can make them better",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "736583",
+    "Tags": [
+      "Soft Skills",
+      "Leadership"
+    ],
+    "Presenters": [
+      {
+        "Id": "08ec797a-a2f4-46a6-ba61-2767d2fa67cf",
+        "Name": "Ted Tencza",
+        "Tagline": "Founder - Code Purple Consulting",
+        "Bio": "Ted has over 25 years of experience in Software Development, the last 18 of which have been in leadership roles. Currently serving as the founder of Code Purple Consulting, he has run multiple teams at Atlassian, Bigcommerce, finder.com and Prospa, with experience in both operational and development projects. He enjoys focusing specifically on the SaaS offerings, as well as working on improving the recruiting, hiring, and on boarding of new developers.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/99ed-400o400o1-PEr1KpUrsNTZUiL3YiYCLe.jpg",
+        "TwitterHandle": "darthted",
+        "WebsiteUrl": "https://www.linkedin.com/in/ttencza/"
+      }
+    ]
+  },
+  {
+    "Id": "ab58bb11-5b02-4203-86ac-567df83f9ca9",
+    "Title": "The Rise of Platform Engineering: Is the Citizen Developer Utopia Over?",
+    "Abstract": "Over the years, the hype around low/no code solutions has promised a utopia where citizen developers can create applications with little to no programming knowledge. However, as platform engineering continues to gain momentum, this utopian promise will finally face critical scrutiny. \r\n\r\nThis talk examines whether the rise of platform engineering will finally temper the much-promised expectations surrounding low/no code platforms, particularly in enterprise environments and early-stage startups.\r\n\r\nPlatform engineering brings a structured, scalable approach to development, which empowers professional developers with tools and frameworks to streamline workflow and accelerate time to market. In contrast, low/no code solutions offer quick wins and a low barrier to entry that will often fall short in delivering complex, scalable, and secure applications.\r\n\r\nWe will explore the strengths and weaknesses of both paradigms through real-world examples and trends, examine the current state of low/no code solutions and their limitations and assess whether platform engineering may offer a more sustainable and effective path forward.\r\n\r\nAttendees will leave with an understanding of these different approaches, equipped to make informed decisions about technology adoption. Whether you're a CTO, developer, or business leader, this talk will provide valuable insights into the future of application development and the strategic implications for your organisation.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "744630",
+    "Tags": [
+      "Cloud",
+      "Strategy"
+    ],
+    "Presenters": [
+      {
+        "Id": "2bb4879e-0b2d-4ee2-9232-ca85264acb19",
+        "Name": "Joshua Boys",
+        "Tagline": "CEO & Founder - Arkahna",
+        "Bio": "Josh is a pioneer in the Australian cloud industry. For 18 years he’s led businesses of all sizes through digital transformation, most recently leading the Microsoft Azure business through several years of strong growth. He’s got a passion for progressive thinking and an obsession with customer success — with the scorecard and battle scars to prove it. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/bf60-400o400o1-7CE28sSSr3vaA3ZM7G9Z6z.jpg",
+        "TwitterHandle": "aneki",
+        "WebsiteUrl": "https://www.linkedin.com/in/joshboys/"
+      }
+    ]
+  },
+  {
+    "Id": "436a174b-af78-48e3-a72f-f2e0d5c9cf4f",
+    "Title": "Transforming Modern Applications into Intelligent Systems: A Hands-On Migration Journey",
+    "Abstract": "We'll start by exploring the core differences between modern and intelligent applications, focusing on how AI and machine learning can be integrated to enhance functionality, improve user experience, and enable smarter decision-making. You'll see a real-world application demo, showcasing the migration process from start to finish, including the challenges, solutions, and best practices.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "740797",
+    "Tags": [
+      "Backend Development",
+      "Artificial Intelligence"
+    ],
+    "Presenters": [
+      {
+        "Id": "a3e495cd-b829-4d71-8813-6fd99dabbfdb",
+        "Name": "Samira Talebi",
+        "Tagline": "Lead Software Developer at Department for Environment and Water SA",
+        "Bio": "Experienced Full Stack .NET Developer skilled in Windows and Web Development, specializing in Front-End and Back-End within the .NET Framework. Proficient in ASP .NET MVC, Object-Oriented Programming, and SQL Server. Successfully developed applications integrating machine learning in .NET using tools like ML.NET. Continuously advancing expertise in this field to deliver innovative solutions.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/34c9-400o400o1-VnyyvtZzxF8hpW9gMeYbgj.jpg",
+        "TwitterHandle": "https://x.com/SamiraT54105",
+        "WebsiteUrl": "https://www.linkedin.com/in/samiratalebi/"
+      },
+      {
+        "Id": "02a58163-ae2c-49d2-8dbe-878362e7b777",
+        "Name": "Omid Karami",
+        "Tagline": "Senior Full Stack .Net Developer/Solution Architect @ St Peter's College",
+        "Bio": "I am a full stack developer and solution architect with over six years of experience in the software industry. Currently, I work at St Peter's College, where I develop and maintain web applications and web services using ASP.NET MVC, .NET Core, Entity Framework, and Angular.\r\n\r\nAs a solution architect, I provide technical leadership and guidance to development teams, ensuring adherence to architectural principles, best practices, and coding standards. I design and manage the seamless integration of various software systems and components, considering scalability, performance, and security aspects. I also collaborate with stakeholders, analyze business requirements, and translate them into technical specifications. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/0014-400o400o1-7PoMviXBv28Cp1GNe7ZHhy.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/omidkarami1987/"
+      }
+    ]
+  },
+  {
+    "Id": "6d621ad9-6cf5-4382-9380-e3e99d6cd06d",
+    "Title": "Uncovering the Unseen - Making the Workplace Work for Everyone",
+    "Abstract": "Charlii Parker invites you to an exploration of invisible disabilities in the workplace. Committed to ensuring that all voices are heard and valued, Charlii's expertise and empathy shine through as she champions diversity and paves the way for a more inclusive and representative future. Focusing on neurodivergence and other hidden conditions, this presentation offers transformative insights into how we can elevate our practices to create workplaces that truly work for everyone. Through a blend of humour, candid stories, and practical advice, you'll learn how to foster a culture of understanding, implement meaningful accommodations, and champion open communication, ensuring that everyone has the opportunity to thrive .",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "745872",
+    "Tags": [
+      "People & Culture",
+      "Career"
+    ],
+    "Presenters": [
+      {
+        "Id": "ae6a3fc2-9b5a-468a-aab0-440f37eb9c54",
+        "Name": "Charlii Parker",
+        "Tagline": "Equitable Research and Design Lead - Intopia",
+        "Bio": "Charlii Parker is a disruptor in the world of design, known for challenging conventional ideas and pushing the boundaries of what's possible. With a passion for equitable and inclusive design, Charlii strives to create digital experiences that cater to the diverse needs of all users. Her innovative approach and commitment to accessibility have earned her recognition as a thought leader in the industry. Whether speaking at conferences, leading workshops, or working on groundbreaking projects, Charlii is dedicated to transforming the way we think about and implement design principles.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/f092-400o400o1-MoPSxr7eTRX1YfGZX82Z1R.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/charlii-parker"
+      }
+    ]
+  },
+  {
+    "Id": "daf5560d-638e-4a8f-a722-9d2b093539a6",
+    "Title": "Video streaming is hard, let’s do it anyway",
+    "Abstract": "After the untimely death of Azure Media Services, there was a video engine that needed to be replaced. Rather than just pay for a service to do this (like a sensible person), we decided to build it ourselves. This is a system that needs to accept user-uploaded videos, process them, and make them available for authorised (and only authorised) users to stream. \r\n\r\nIt turns out that this is a bit of a process – so let’s talk about it. \r\n\r\nIn this talk we will go over how we’ve solved this problem from top to tail. This means talking about (and demoing) video formats, streaming protocols, transcoding engines, media APIs, and browser playback. \r\n",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "746375",
+    "Tags": [
+      "Backend Development",
+      "Web"
+    ],
+    "Presenters": [
+      {
+        "Id": "0c7bef0f-9e76-439d-9394-9122501d8de8",
+        "Name": "Ryan Rowston",
+        "Tagline": "Software and Solutions Lead at Taptu",
+        "Bio": "A dedicated solutions developer, Ryan specialises in web application and API development. He has several years of commercial experience in delivering successful IT and software projects and takes pride in projects that improve people’s lives and productivity.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/d209-400o400o1-BR4BaNtSQkWZUaYjaiKgE6.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/ryanrowston/"
+      }
+    ]
+  },
+  {
+    "Id": "9a38a5c3-6420-4b04-a17a-46b920d696b1",
+    "Title": "Webapps without a server, a personal JavaScript odyssey",
+    "Abstract": "Have you ever started a personal project with a clear idea in mind, only to find the journey itself reinvented your goals, producing something fun and unexpected in the process?\r\n\r\nThis odyssey began as a small starter codebase project to introduce coding my best friend’s kids (and get them off Fortnite). The rules: No web server, local file paths only; no packages to abstract how things work; Designed, should be general and extensible.\r\n\r\nDoh … can’t import, better tackle encapsulation and structure. No store, need that. No observables, build that too. No event management, do that too. No components, need those. Persistence ...\r\n\r\nBefore I new it, I’m bouncing ideas off the team at work. \r\n\r\nJoin me and a colleague as we fast replay this journey together, building a front-end architecture from first principles. \r\n\r\n…And in the process remembering the passion of coding for fun.",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "747101",
+    "Tags": [
+      "Frontend Development",
+      "Coding"
+    ],
+    "Presenters": [
+      {
+        "Id": "aa059388-e574-4535-8ebb-70cddaede01d",
+        "Name": "Luca Gnezda",
+        "Tagline": "Director at Taptu. Dreams of free time, suspects it doesn't exist.",
+        "Bio": "Luca possesses over 25 years of experience in the information technology industry. He has worked for diverse sector-leading organisations across; consulting, corporate banking, legal, education, mining and government. A specialist in digital strategy, product management and enterprise architecture, today Luca runs the boutique digital advisory and custom software firm Taptu, social enterprise Head Full of Heart, and is also the technical product lead of a digital startup. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/1033-400o400o1-GUHHWNCsnzxuY5BuUmvS3J.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/lucagnezda/"
+      },
+      {
+        "Id": "6c221348-dcc0-4f4b-a5a0-d2810cc78b42",
+        "Name": "Solomon Laing",
+        "Tagline": "Software & Solutions Specialist @ Taptu. ",
+        "Bio": "A relatively recent Flinders Uni graduate, I am excitedly finding my place in the local IT Industry in Adelaide with the help of Taptu and Head Full of Heart. In a few words; aspiring conversationalist in German, lover of GNU/Linux, food, and experimental noise music.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/7dcc-400o400o1-KYyiCLVHGADMXmZRnFZEDU.jpg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://inkletblot.com"
+      }
+    ]
+  },
+  {
+    "Id": "dc491fc4-34fb-462f-ae8d-92966ec739eb",
+    "Title": "What's new with CSS?",
+    "Abstract": "With the speed that everything is changing, it’s easy to miss new advances or changes in technology, especially if it’s in a language that you don’t use on a daily basis.\r\n\r\nSo would it shock you to know how many new features have come to CSS in recent years? Now you can style an element based on how big it’s parent is, or based on what child elements you have, or change the page layout depending on if someone’s native language reads left-to-right, right-to-left or top-to-bottom!\r\n\r\nGone are the days we have to say “Sorry, CSS can’t do that” or reach for 52 different libraries to have something according to the design*. So join me as we tour the new world of CSS and play with the shiny new specs.\r\n\r\n**Disclaimer: you’ll still need a library to style a select field, sorry. But pretty much everything else is possible now!",
+    "Format": "45 mins",
+    "Level": "Mostly intermediate",
+    "ExternalId": "735580",
+    "Tags": [
+      "Frontend Development",
+      "Web"
+    ],
+    "Presenters": [
+      {
+        "Id": "838131a3-eb36-42b3-9a8b-1509902542a9",
+        "Name": "Amy Kapernick",
+        "Tagline": "Senior front-end developer, Speaker, Mentor, Dog Lover",
+        "Bio": "Amy is a business owner,  senior developer, mentor and international conference speaker. She has a passion for sharing knowledge with the community with a focus on nurturing the next generation of developers. This has led to her organising and volunteering at events, running technical workshops, and writing and producing her own video content. She also regularly presents and keynotes at events all over the world, informing and entertaining audiences from a variety of industries and backgrounds.\r\n\r\nA familiar face in the developer community Amy volunteers her time with several groups, including DDD Perth as Vice Chair and Director of Conference Content, Perth Azure User Group as one of the organising team and She Codes as a regular mentor. These contributions are not unnoticed, as she’s been recognised as a Microsoft MVP and a Twilio Champion since 2019 for her contributions to the tech community and ongoing commitment to helping those around her.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/deb6-400o400o1-QGFohiqJFBwktSCPBQmNZF.JPG",
+        "TwitterHandle": "amys_kapers",
+        "WebsiteUrl": "https://blog.amyskapers.dev"
+      }
+    ]
+  },
+  {
+    "Id": "9c34a263-62a1-4380-b1d9-f37b300461c6",
+    "Title": "XOXO Recruiter Girl",
+    "Abstract": "Hey Adelaide, Recruiter Girl here. And I have the biggest news ever! After leaving tech recruitment (in a blaze of glory), I'm coming to DDD and I'm ready to spill the tea. \r\n\r\nSpotted at the University of Adelaide: a recruiter who's seen the good, the bad and the ugly of tech recruitment. She's been the one in your LinkedIn inbox, she may have interviewed you and she may have pleaded with you to \"take the goddamn offer\" when you had multiple on the table. \r\n\r\nThere's no doubt that recruiters are a (necessary) evil force in Tech and I'm here to shake things up, spill the tea of how they work, why they do the things they do and open up the debate of whether or not you should actually use a recruiter. \r\n\r\nI've left the recruitment game, so this will be no-holds-barred presentation. \r\n\r\nThe tea is piping hot and it's ready to be spilled. \r\n\r\nXOXO Recruiter Girl",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "730661",
+    "Tags": [
+      "People & Culture",
+      "Career"
+    ],
+    "Presenters": [
+      {
+        "Id": "168e0c33-1299-44aa-9644-3ae24c34770d",
+        "Name": "Emily Conaghan",
+        "Tagline": "Technology Academy Lead @ Auto & General",
+        "Bio": "Emily sits in open waters between people and technology. After graduating with a Bachelor in Human Resource Management, she's slowly been making her way closer and closer to technology with the help of a previous life as a Technical Recruiter and the SheCodes Australia Plus Program.\r\n\r\nNow, Emily runs Auto & General's Technology Academy where she helps non-technical folk become the next generation of software developers. \r\n\r\nIn her free time, Emily can be found over-committing to how many book clubs one can realistically join and nurturing a dill plant that's teetering on the edge of a delicious potato salad. ",
+        "ProfilePhotoUrl": "https://sessionize.com/image/eb48-400o400o1-LEAVyNCcWrvMSzxtPdAqbV.jpeg",
+        "TwitterHandle": null,
+        "WebsiteUrl": "https://www.linkedin.com/in/emily-conaghan/"
+      }
+    ]
+  },
+  {
+    "Id": "2e079142-49b5-43a4-8f8a-fce9278516ad",
+    "Title": "You are welcome in this world",
+    "Abstract": "When we design for inclusion, it’s not about compliance, avoiding lawsuits, or expanding market reach—it’s about people. True inclusion starts with the people we meet and the stories we share. \r\n\r\nMy journey into digital accessibility has been profoundly shaped by my Dad, who is blind, navigating a world that wasn’t built for him. \r\n\r\nAs the designers and builders of an increasingly digital society, it is our responsibility to ensure everyone feels welcome. This talk explores the power of stories and how small, intentional choices can lead to more inclusive experiences—both at work and beyond.",
+    "Format": "45 mins",
+    "Level": "No experience necessary",
+    "ExternalId": "766339",
+    "Tags": [
+      "Design and UX",
+      "Accessibility"
+    ],
+    "Presenters": [
+      {
+        "Id": "1a2f7712-67d8-4b80-8572-c4456c1e26b3",
+        "Name": "Larene Le Gassick",
+        "Tagline": "Software engineer and accessibility specialist",
+        "Bio": "Larene is the team engineering lead for the Accessibility team at Canva—whose mission is to empower everyone to design. Larene has been a software engineer and accessibility specialist for over 10 years, but her digital accessibility journey unknowingly began when she was much younger, when her Dad started to lose his vision and hearing.",
+        "ProfilePhotoUrl": "https://sessionize.com/image/d3be-400o400o1-91kcNdtWWfHjXjoZv2u1uk.jpg",
+        "TwitterHandle": "LareneLg",
+        "WebsiteUrl": "https://www.linkedin.com/in/larene/"
+      }
+    ]
+  }
+]

@@ -19,7 +19,8 @@ const Sponsorship: NextPage = () => {
           <EmailIcon />
         </ButtonAnchor>
       </Text>
-
+      <img src="/static/images/adelaide/2025-2.jpg" alt="DDD Adelaide Crowd Arial Shot" />
+      <br />
       <Text>
         {conference.TagLine}. {conference.Name} provides a unique opportunity to sponsors because we attract people that
         don't normally go to software conferences. This occurs as a natural result of our core principles:

@@ -20,8 +20,7 @@ declare global {
 }
 
 const getTitle = (title: string, date: Date, name: string, showDate: boolean, timezone: string) =>
-  `${title !== 'Home' ? title + ' - ' : ''}${name}${
-    showDate ? ` | ${formatInTimeZone(date, timezone, 'do MMMM yyyy')}` : ''
+  `${title !== 'Home' ? title + ' - ' : ''}${name}${showDate ? ` | ${formatInTimeZone(date, timezone, 'do MMMM yyyy')}` : ''
   }`
 
 export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {
@@ -29,7 +28,7 @@ export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {
   const { pathname } = useRouter()
   const conferenceDates = getConferenceDates(conference, dateTimeProvider.now())
   const ogImage =
-    pageImage || conference.Instance !== '2024' || conferenceDates.IsComplete
+    pageImage || conference.Instance !== '2025' || conferenceDates.IsComplete
       ? '/static/images/adelaide/logo.png' // generic image
       : '/static/images/adelaide/logo-square-withtext.png' // date-branded image
 
