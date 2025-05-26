@@ -17,18 +17,18 @@ const tagLine = `${name} is an inclusive non-profit conference for the Adelaide 
 
 const hideDate = false
 const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
-const staticDate = '2025-11-22T08:00'
+const staticDate = '2024-11-23T08:00'
 const date = zonedTimeToUtc(staticDate, '+10:30')
 const endDate = add(date, { days: 2, hours: 12 })
 const currentInstance = date.getFullYear()
 const firstInstance = 2023
-const registrationOpenFrom = zonedTimeToUtc('2025-07-31T08:00:00', '+09:30')
+const registrationOpenFrom = zonedTimeToUtc('2024-08-01T08:00:00', '+09:30')
 const registrationOpenUntil = hideDate ? null : sub(date, { hours: 14, minutes: 45 })
-const presentationSubmissionsOpenFrom = zonedTimeToUtc('2025-07-31T08:00:00', '+09:30')
-const presentationSubmissionsOpenUntil = zonedTimeToUtc('2025-09-05T23:59:59', '+09:30')
-const votingOpenFrom = zonedTimeToUtc('2025-09-09T17:00:00', '+09:30')
-const votingOpenUntil = zonedTimeToUtc('2025-09-28T23:59:59', '+09:30')
-const agendaPublishedFrom = zonedTimeToUtc('2025-10-04T08:00:00', '+09:30')
+const presentationSubmissionsOpenFrom = zonedTimeToUtc('2024-08-01T08:00:00', '+09:30')
+const presentationSubmissionsOpenUntil = zonedTimeToUtc('2024-09-06T23:59:59', '+09:30')
+const votingOpenFrom = zonedTimeToUtc('2024-09-10T17:00:00', '+09:30')
+const votingOpenUntil = zonedTimeToUtc('2024-09-29T23:59:59', '+09:30')
+const agendaPublishedFrom = zonedTimeToUtc('2024-10-05T08:00:00', '+09:30')
 const feedbackOpenFrom = toDate(date)
 const feedbackOpenUntil = endDate
 const importantDates: ImportantDate[] = [
@@ -74,7 +74,7 @@ if (!hideDate) {
 
 const venue: Venue | null = universityOfAdelaide
 
-const Conference: IConference = {
+export const Conference2024: IConference = {
   Name: name,
   Instance: currentInstance.toString(),
   PreviousInstance: (currentInstance - 1).toString(),
@@ -92,13 +92,13 @@ const Conference: IConference = {
   ChildcarePrice: null,
   TicketsProviderId: TicketsProvider.Tito,
   TicketsProviderAccountId: 'ddd-adelaide',
-  TicketsProviderEventId: '2025-conference',
+  TicketsProviderEventId: '2024-conference',
   TicketsProviderFinancialAssistanceTicketLink: '',
   TicketPurchasingOptions: ticketPurchasingOptions,
   HashTag: 'DDDAdelaide',
   SellingPoints: ['One day', 'Fully catered', 'Inclusive atmosphere', 'Interesting presentations', 'Awesome people'],
   Handbook: undefined,
-  SessionizeUrl: 'https://sessionize.com/dddadelaide2025',
+  SessionizeUrl: 'https://sessionize.com/dddadelaide2024',
   SessionizeEditUrl: 'https://sessionize.com/app/speaker/',
   PreviouslySubmittedTopics:
     'Agile, building great teams, UI design, UX, software testing, virtual reality, women in tech, web accessibility, open source software, workplace culture, mental health, unconscious bias, building engaged teams, self-employment tips, mentoring, Scrum, pair programming, bots, IoT, machine learning, neural networks, quantum encryption, security, reverse engineering, blockchain, Assembly language, automated deployments, mobile development, mobile test automation, Domain Driven Design, cloud native, architecture, microservices, serverless, service meshes, stream programming and Rx, APIs, GraphQL, actors, JavaScript, SPAs, TypeScript, authentication, React, UWP, Elm, HTML, HTTP protocol, Git, Docker and pointers',
@@ -138,8 +138,8 @@ const Conference: IConference = {
   SessionFeedbackLink: '/feedback',
 
   HideDate: hideDate,
-  HideSponsors: true,
-  HideSponsorshipUpsell: false,
+  HideSponsors: false,
+  HideSponsorshipUpsell: true,
   HideVenue: venue === null,
   HasAfterParty: false,
   HideAfterpartyVenue: venue === null || venue.Afterparty === null,
@@ -206,5 +206,3 @@ const Conference: IConference = {
 
   VolunteerSubmissionFormId: undefined,
 }
-
-export default Conference
