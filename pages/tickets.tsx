@@ -19,13 +19,12 @@ const TicketPage: NextPage = () => {
     <Main title="Tickets" description={`Purchase tickets for ${conference.Name}`}>
       <h1>Tickets</h1>
 
-      {/* The logic here isn't quite right as it hides the tito link? */}
-      {/* {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && ( */}
-      <Text>
-        Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets
-        become available.
-      </Text>
-      {/* )} */}
+      {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
+        <Text>
+          Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets become
+          available.
+        </Text>
+      )}
 
       <FaqList faqs={faqs.filter((f) => f.Category === 'tickets')} />
 
