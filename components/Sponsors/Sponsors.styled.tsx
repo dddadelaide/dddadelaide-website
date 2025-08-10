@@ -41,7 +41,7 @@ export const StyledSponsorLogo = styled('img')<StyledSponsorLogoProps>(
   },
   ({ level }) =>
     level === SponsorType.Gold && {
-      maxWidth: calcRem(300),
+      maxWidth: calcRem(250),
       maxHeight: calcRem(200),
     },
 )

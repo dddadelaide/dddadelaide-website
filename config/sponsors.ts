@@ -4,11 +4,25 @@ const platinumSponsors: Sponsor[] = []
 
 const goldSponsors: Sponsor[] = [
   {
-    id: 'raa',
-    imageUrl: '/static/images/sponsors/raa.png',
-    name: 'RAA',
+    id: 'quoterite',
+    imageUrl: '/static/images/sponsors/quoterite.png',
+    name: 'Quoterite',
     type: SponsorType.Gold,
-    url: 'https://raa.com.au/',
+    url: 'https://www.quoterite.com.au/',
+  },
+  {
+    id: 'encode',
+    imageUrl: '/static/images/sponsors/encode.png',
+    name: 'Encode Talent',
+    type: SponsorType.Gold,
+    url: 'https://www.encodetalent.com.au/',
+  },
+  {
+    id: 'splose',
+    imageUrl: '/static/images/sponsors/splose.png',
+    name: 'Splose',
+    type: SponsorType.Gold,
+    url: 'https://splose.com/',
   },
   {
     id: 'octopus',
@@ -27,56 +41,32 @@ const goldSponsors: Sponsor[] = [
 ]
 
 const silverSponsors: Sponsor[] = [
-  {
-    id: 'encode',
-    imageUrl: '/static/images/sponsors/encode.png',
-    name: 'Encode Talent',
-    type: SponsorType.Silver,
-    url: 'https://www.encodetalent.com.au/',
-  },
+]
+
+const coffeeCartSponsors: Sponsor[] = [
+
+]
+
+const serviceSponsors: Sponsor[] = [
   {
     id: 'sixpivot',
     imageUrl: '/static/images/sponsors/sixpivot.png',
     name: 'SixPivot',
-    type: SponsorType.Silver,
+    type: SponsorType.Service,
     url: 'https://www.sixpivot.com/',
-  },
-  {
-    id: 'taptu',
-    imageUrl: '/static/images/sponsors/taptu.png',
-    name: 'Taptu',
-    type: SponsorType.Silver,
-    url: 'https://www.taptu.com.au/',
+    serviceProvided: 'Coffee cart'
   },
   {
     id: 'intopia',
     imageUrl: '/static/images/sponsors/intopia.png',
     name: 'Intopia',
-    type: SponsorType.Silver,
+    type: SponsorType.Service,
     url: 'https://intopia.digital/',
+    serviceProvided: 'Major prize'
   },
 ]
-
-const coffeeCartSponsors: Sponsor[] = [
-  {
-    id: 'mantel',
-    imageUrl: '/static/images/sponsors/mantel.png',
-    name: 'Mantel Group',
-    type: SponsorType.CoffeeCart,
-    url: 'https://mantelgroup.com.au/',
-  },
-]
-
-const serviceSponsors: Sponsor[] = []
 
 const communityPartners: Sponsor[] = [
-  {
-    id: 'rds',
-    imageUrl: '/static/images/sponsors/rds.png',
-    name: 'Relational Data Services',
-    type: SponsorType.Community,
-    url: 'https://relational.com.au/',
-  },
   {
     id: 'maxmine',
     imageUrl: '/static/images/sponsors/maxmine.png',
@@ -91,13 +81,7 @@ const communityPartners: Sponsor[] = [
     type: SponsorType.Community,
     url: 'https://www.ozrunways.com/au/',
   },
-  {
-    id: 'quoterite',
-    imageUrl: '/static/images/sponsors/quoterite.png',
-    name: 'Quoterite',
-    type: SponsorType.Community,
-    url: 'https://www.quoterite.com.au/',
-  },
+
   {
     id: 'aligent',
     imageUrl: '/static/images/sponsors/aligent.png',
@@ -106,9 +90,9 @@ const communityPartners: Sponsor[] = [
     url: 'https://aligent.com.au/',
   },
   {
-    id: 'tiimely',
-    imageUrl: '/static/images/sponsors/tiimely.png',
-    name: 'Tiimely',
+    id: 'fivecast',
+    imageUrl: '/static/images/sponsors/fivecast.png',
+    name: 'Fivecast',
     type: SponsorType.Community,
     url: 'http://tiimely.com/',
   },
