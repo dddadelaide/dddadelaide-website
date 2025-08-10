@@ -31,13 +31,6 @@ const goldSponsors: Sponsor[] = [
     type: SponsorType.Gold,
     url: 'https://www.octopus.com/',
   },
-  {
-    id: 'adelaideUniversity',
-    imageUrl: '/static/images/sponsors/university-of-adelaide.png',
-    name: 'The University of Adelaide',
-    type: SponsorType.Gold,
-    url: 'https://www.adelaide.edu.au/',
-  },
 ]
 
 const silverSponsors: Sponsor[] = [
@@ -64,6 +57,14 @@ const serviceSponsors: Sponsor[] = [
     url: 'https://intopia.digital/',
     serviceProvided: 'Major prize'
   },
+  {
+    id: 'adelaideUniversity',
+    imageUrl: '/static/images/sponsors/university-of-adelaide.png',
+    name: 'The University of Adelaide',
+    type: SponsorType.Service,
+    url: 'https://www.adelaide.edu.au/',
+    serviceProvided: 'Venue'
+  },
 ]
 
 const communityPartners: Sponsor[] = [
@@ -89,13 +90,13 @@ const communityPartners: Sponsor[] = [
     type: SponsorType.Community,
     url: 'https://aligent.com.au/',
   },
-  {
-    id: 'fivecast',
-    imageUrl: '/static/images/sponsors/fivecast.png',
-    name: 'Fivecast',
-    type: SponsorType.Community,
-    url: 'http://tiimely.com/',
-  },
+  // {
+  //   id: 'fivecast',
+  //   imageUrl: '/static/images/sponsors/fivecast.png',
+  //   name: 'Fivecast',
+  //   type: SponsorType.Community,
+  //   url: 'http://tiimely.com/',
+  // },
 ]
 
 const Sponsors: Sponsor[] = [
