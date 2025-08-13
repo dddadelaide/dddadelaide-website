@@ -35,7 +35,7 @@ const goldSponsors: Sponsor[] = [
     id: 'adelaideUniversity',
     imageUrl: '/static/images/sponsors/university-of-adelaide.png',
     name: 'The University of Adelaide',
-    type: SponsorType.Service,
+    type: SponsorType.Gold,
     url: 'https://www.adelaide.edu.au/',
   },
 ]
