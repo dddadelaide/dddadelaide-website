@@ -31,13 +31,6 @@ const goldSponsors: Sponsor[] = [
     type: SponsorType.Gold,
     url: 'https://www.octopus.com/',
   },
-  {
-    id: 'adelaideUniversity',
-    imageUrl: '/static/images/sponsors/university-of-adelaide.png',
-    name: 'The University of Adelaide',
-    type: SponsorType.Gold,
-    url: 'https://www.adelaide.edu.au/',
-  },
 ]
 
 const silverSponsors: Sponsor[] = [
@@ -63,6 +56,14 @@ const serviceSponsors: Sponsor[] = [
     type: SponsorType.Service,
     url: 'https://intopia.digital/',
     serviceProvided: 'Major prize'
+  },
+  {
+    id: 'adelaideUniversity',
+    imageUrl: '/static/images/sponsors/university-of-adelaide.png',
+    name: 'The University of Adelaide',
+    type: SponsorType.Service,
+    url: 'https://www.adelaide.edu.au/',
+    serviceProvided: 'Venue'
   },
 ]
 
