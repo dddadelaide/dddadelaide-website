@@ -90,13 +90,13 @@ const communityPartners: Sponsor[] = [
     type: SponsorType.Community,
     url: 'https://aligent.com.au/',
   },
-  // {
-  //   id: 'fivecast',
-  //   imageUrl: '/static/images/sponsors/fivecast.png',
-  //   name: 'Fivecast',
-  //   type: SponsorType.Community,
-  //   url: 'http://tiimely.com/',
-  // },
+  {
+    id: 'fivecast',
+    imageUrl: '/static/images/sponsors/fivecast.png',
+    name: 'Fivecast',
+    type: SponsorType.Community,
+    url: 'http://tiimely.com/',
+  },
 ]
 
 const Sponsors: Sponsor[] = [
