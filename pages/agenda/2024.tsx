@@ -21,7 +21,15 @@ const AgendaPage: NextPage<AgendaPageProps> = ({ sessions, sessionId }) => {
   const dates = getConferenceDates(Conference2024, currentDate)
 
   return (
-    <Main title="Agenda" description={Conference2024.Name + ' agenda.'}>
+    <Main
+      title="Agenda"
+      fullTitle={
+        '2024 Agenda - ' +
+        Conference2024.Name +
+        ` | ${formatInTimeZone(Conference2024.StaticDate, Conference2024.TimeZone, 'do MMMM yyyy')}`
+      }
+      description={Conference2024.Name + ' agenda.'}
+    >
       <div className="container">
         <h1>{dates.IsComplete && Conference2024.Instance} Agenda</h1>
 

@@ -17,7 +17,7 @@ const tagLine = `${name} is an inclusive non-profit conference for the Adelaide 
 
 const hideDate = false
 const ticketPurchasingOptions = TicketPurchasingOptions.OnSale
-const staticDate = '2023-11-23T08:00'
+const staticDate = '2023-11-18T08:00'
 const date = zonedTimeToUtc(staticDate, '+10:30')
 const endDate = add(date, { days: 2, hours: 12 })
 const currentInstance = date.getFullYear()

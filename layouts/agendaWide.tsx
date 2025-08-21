@@ -4,6 +4,7 @@ import { StyledAgenda } from './Layouts.styled'
 
 export const Main = ({
   title,
+  fullTitle,
   description,
   image,
   children,
@@ -13,6 +14,7 @@ export const Main = ({
 }: TemplateProps): JSX.Element => (
   <Template
     title={title}
+    fullTitle={fullTitle}
     description={description}
     image={image}
     showHero={showHero}

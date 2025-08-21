@@ -10,6 +10,7 @@ import Conference from 'config/conference'
 
 interface MetaArgs {
   pageTitle: string
+  pageFullTitle?: string
   pageDescription?: string
   pageImage?: string
 }
@@ -20,7 +21,15 @@ declare global {
   }
 }
 
-const getTitle = (title: string, date: Date, name: string, showDate: boolean, timezone: string) =>
+const getTitle = (
+  title: string,
+  fullTitle: string | undefined,
+  date: Date,
+  name: string,
+  showDate: boolean,
+  timezone: string,
+) =>
+  fullTitle ||
   `${title !== 'Home' ? title + ' - ' : ''}${name}${
     showDate ? ` | ${formatInTimeZone(date, timezone, 'do MMMM yyyy')}` : ''
   }`
@@ -62,7 +71,7 @@ const jsonLd = {
   },
 }
 
-export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {
+export const Meta = ({ pageTitle, pageFullTitle, pageDescription, pageImage }: MetaArgs) => {
   const { conference, appConfig, dates } = useConfig()
   const { pathname } = useRouter()
   const conferenceDates = getConferenceDates(conference, dateTimeProvider.now())
@@ -75,12 +84,21 @@ export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {
     () =>
       getTitle(
         pageTitle,
+        pageFullTitle,
         conference.Date,
         conference.Name,
         !conference.HideDate && !dates.IsComplete,
         conference.TimeZone,
       ),
-    [pageTitle, dates.IsComplete, conference.HideDate, conference.Name, conference.Date, conference.TimeZone],
+    [
+      pageTitle,
+      pageFullTitle,
+      dates.IsComplete,
+      conference.HideDate,
+      conference.Name,
+      conference.Date,
+      conference.TimeZone,
+    ],
   )
 
   React.useEffect(() => {

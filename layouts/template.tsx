@@ -14,6 +14,7 @@ import { StyledPageBanner } from 'components/PageBanner/PageBanner.styled'
 
 export interface TemplateProps {
   title: string
+  fullTitle?: string
   description?: string
   image?: string
   showHero?: boolean
@@ -25,6 +26,7 @@ export interface TemplateProps {
 export const Template = ({
   children,
   title,
+  fullTitle,
   description,
   image,
   showHero,
@@ -36,7 +38,7 @@ export const Template = ({
 
   return (
     <Fragment>
-      <Meta pageTitle={title} pageDescription={description} pageImage={image} />
+      <Meta pageTitle={title} pageFullTitle={fullTitle} pageDescription={description} pageImage={image} />
       <SkipToContent />
       <NavigationProvider>
         <Header />
