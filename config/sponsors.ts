@@ -33,12 +33,9 @@ const goldSponsors: Sponsor[] = [
   },
 ]
 
-const silverSponsors: Sponsor[] = [
-]
+const silverSponsors: Sponsor[] = []
 
-const coffeeCartSponsors: Sponsor[] = [
-
-]
+const coffeeCartSponsors: Sponsor[] = []
 
 const serviceSponsors: Sponsor[] = [
   {
@@ -47,7 +44,7 @@ const serviceSponsors: Sponsor[] = [
     name: 'SixPivot',
     type: SponsorType.Service,
     url: 'https://www.sixpivot.com/',
-    serviceProvided: 'Coffee cart'
+    serviceProvided: 'Coffee cart',
   },
   {
     id: 'intopia',
@@ -55,7 +52,7 @@ const serviceSponsors: Sponsor[] = [
     name: 'Intopia',
     type: SponsorType.Service,
     url: 'https://intopia.digital/',
-    serviceProvided: 'Major prize'
+    serviceProvided: 'Major prize',
   },
   {
     id: 'adelaideUniversity',
@@ -63,7 +60,7 @@ const serviceSponsors: Sponsor[] = [
     name: 'The University of Adelaide',
     type: SponsorType.Service,
     url: 'https://www.adelaide.edu.au/',
-    serviceProvided: 'Venue'
+    serviceProvided: 'Venue',
   },
 ]
 

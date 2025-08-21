@@ -116,7 +116,6 @@ export const Sponsors = ({ sponsors, show, hideUpsell }: SponsorsProps) => {
             ))}
           </Fragment>
         )}
-
       </StyledSponsorsContainer>
 
       {serviceSponsors.length > 0 && (

@@ -21,8 +21,8 @@ const TicketPage: NextPage = () => {
 
       {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
         <Text>
-          Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets become
-          available.
+          Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets
+          become available.
         </Text>
       )}
 
