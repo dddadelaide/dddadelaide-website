@@ -99,7 +99,7 @@ const VotePage: NextPage<VoteProps> = () => {
   }, [sessions, conference])
 
   return (
-    <Main title="Vote" description={`${conference.Name} voting page.`}>
+    <Main title="Vote" description={`${conference.Name} voting page.`} hideMailingList={true}>
       {pageState === 'loading' && (
         <Alert kind="info">
           <p>Loading sessions...</p>

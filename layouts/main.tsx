@@ -10,6 +10,7 @@ export const Main = ({
   showHero,
   showActionBar,
   pageBanner,
+  hideMailingList,
 }: TemplateProps): JSX.Element => (
   <Template
     title={title}
@@ -18,6 +19,7 @@ export const Main = ({
     showHero={showHero}
     showActionBar={showActionBar}
     pageBanner={pageBanner}
+    hideMailingList={hideMailingList}
   >
     <StyledMain id="content">{children}</StyledMain>
   </Template>

@@ -21,6 +21,7 @@ export interface TemplateProps {
   children?: React.ReactNode
   showActionBar?: boolean
   pageBanner?: string
+  hideMailingList?: boolean
 }
 
 export const Template = ({
@@ -32,6 +33,7 @@ export const Template = ({
   showHero,
   showActionBar = true,
   pageBanner = null,
+  hideMailingList = false,
 }: TemplateProps): JSX.Element => {
   const { conference, appConfig, dates } = useConfig()
   const menu = Menu(conference, dates)
@@ -48,14 +50,16 @@ export const Template = ({
       {showHero && <Hero />}
       {pageBanner && <StyledPageBanner bannerImage={pageBanner} />}
       {children}
-      <div style={{ margin: '0 auto', textAlign: 'center', paddingBottom: '10px' }}>
-        <h2>Mailing List</h2>
-        <script
-          async
-          src="https://eocampaign1.com/form/78f46ea2-4b21-11f0-95a4-3de79b22cc0e.js"
-          data-form="78f46ea2-4b21-11f0-95a4-3de79b22cc0e"
-        ></script>
-      </div>
+      {!hideMailingList && (
+        <div style={{ margin: '0 auto', textAlign: 'center', paddingBottom: '10px' }}>
+          <h2>Mailing List</h2>
+          <script
+            async
+            src="https://eocampaign1.com/form/78f46ea2-4b21-11f0-95a4-3de79b22cc0e.js"
+            data-form="78f46ea2-4b21-11f0-95a4-3de79b22cc0e"
+          ></script>
+        </div>
+      )}
       <Footer />
       {appConfig.testingMode() && <TestingControl />}
     </Fragment>
