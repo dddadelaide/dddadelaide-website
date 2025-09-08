@@ -44,9 +44,7 @@ export default function VoteLanding({ instance, votingFinished }: VoteLandingPro
           Voting closes on {votingFinished}, so you have between now and then to have your say. You can leave and come
           back any time until the closing day to get your votes in.
         </Text>
-        <Text>
-          If you want to be notified when the agenda is published, sign up to the mailing list below.
-        </Text>
+        <Text>If you want to be notified when the agenda is published, sign up to the mailing list below.</Text>
         <Text>Happy Voting!</Text>
 
         <Text>
