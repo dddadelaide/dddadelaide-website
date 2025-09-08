@@ -119,7 +119,7 @@ export default function Elo({ sessions, votingSessionId, userDefinedLayout = 'st
   }
 
   return (
-    <Main title="Vote" description={`${conference.Name} voting page.`} showActionBar={false}>
+    <Main title="Vote" description={`${conference.Name} voting page.`} showActionBar={false} hideMailingList={true}>
       <EloVote
         key={sessionPair.SubmissionA.Id + sessionPair.SubmissionB.Id}
         sessionA={sessionPair.SubmissionA}
