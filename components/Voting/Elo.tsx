@@ -59,7 +59,7 @@ function EloChoice({ session, variant = 'primary' }: EloChoiceProps) {
       </StyledSessionTitle>
       {session.Tags.length > 0 ? (
         <StyledEloTagList>
-          {session.Tags.map((tag) => (
+          {[...new Set(session.Tags)].sort().map((tag) => (
             <StyledEloTag key={tag}>{tag}</StyledEloTag>
           ))}
         </StyledEloTagList>
