@@ -22,7 +22,7 @@ const AllAgendas = ({ conference, conferenceInstance, dates }: AllAgendasProps):
               <a>{instance}</a>
             </Link>
           )}
-          {i > 0 && i < conference.PreviousInstances.length ? ' | ' : null}
+          {i < conference.PreviousInstances.length - 1 ? ' | ' : null}
         </Fragment>
       ))}
       {dates.AgendaPublished && conference.PreviousInstances.length > 0 && ' | '}
