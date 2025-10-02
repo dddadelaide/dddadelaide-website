@@ -15,7 +15,7 @@ import { AgendaProvider } from 'components/Agenda/AgendaContext'
 import { AgendaSession } from 'components/Agenda/AgendaSession'
 import { AgendaTime } from 'components/Agenda/AgendaTime'
 import { set } from 'date-fns'
-import { StyledAgendaPresenter } from './Agenda/AgendaSession.styled'
+// import { StyledAgendaPresenter } from './Agenda/AgendaSession.styled'
 
 interface CurrentAgendaProps {
   date: Date
@@ -118,16 +118,19 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 9, minutes: 0 })} />
-                  <AgendaSession
-                    sessionId="766339"
-                    room={'Braggs Theatre'}
-                    renderPresenters={(presenters) => (
-                      <StyledAgendaPresenter isKeynote>Keynote: {presenters}</StyledAgendaPresenter>
-                    )}
-                    fullWidth
-                    isKeynote
-                    alwaysShowRoom
-                  />
+                  {/*<AgendaSession*/}
+                  {/*  sessionId="766339"*/}
+                  {/*  room={'Braggs Theatre'}*/}
+                  {/*  renderPresenters={(presenters) => (*/}
+                  {/*    <StyledAgendaPresenter isKeynote>Keynote: {presenters}</StyledAgendaPresenter>*/}
+                  {/*  )}*/}
+                  {/*  fullWidth*/}
+                  {/*  isKeynote*/}
+                  {/*  alwaysShowRoom*/}
+                  {/*/>*/}
+                  <AgendaSession alwaysShowRoom fullWidth>
+                    <StyledTrackHeader>TBA: Keynote</StyledTrackHeader>
+                  </AgendaSession>
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 9, minutes: 45 })} />
@@ -137,9 +140,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 9, minutes: 55 })} />
-                  <AgendaSession room={0} sessionId="746103" />
-                  <AgendaSession room={1} sessionId="745067" />
-                  <AgendaSession room={2} sessionId="735580" />
+                  <AgendaSession room={0} sessionId="1017425" />
+                  <AgendaSession room={1} sessionId="990899" />
+                  <AgendaSession room={2} sessionId="989318" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 10, minutes: 40 })} />
@@ -149,9 +152,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 11, minutes: 10 })} />
-                  <AgendaSession room={0} sessionId="730661" />
-                  <AgendaSession room={1} sessionId="746362" />
-                  <AgendaSession room={2} sessionId="746375" />
+                  <AgendaSession room={0} sessionId="1027544" />
+                  <AgendaSession room={1} sessionId="1023069" />
+                  <AgendaSession room={2} sessionId="1014474" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 11, minutes: 55 })} />
@@ -161,9 +164,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 12, minutes: 5 })} />
-                  <AgendaSession room={0} sessionId="736583" />
-                  <AgendaSession room={1} sessionId="746959" />
-                  <AgendaSession room={2} sessionId="747101" />
+                  <AgendaSession room={0} sessionId="1027256" />
+                  <AgendaSession room={1} sessionId="1028224" />
+                  <AgendaSession room={2} sessionId="1026620" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 12, minutes: 50 })} />
@@ -173,9 +176,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 13, minutes: 40 })} />
-                  <AgendaSession room={0} sessionId="746546" />
-                  <AgendaSession room={1} sessionId="745104" />
-                  <AgendaSession room={2} sessionId="747025" />
+                  <AgendaSession room={0} sessionId="990610" />
+                  <AgendaSession room={1} sessionId="991781" />
+                  <AgendaSession room={2} sessionId="1013409" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 14, minutes: 25 })} />
@@ -185,9 +188,15 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 14, minutes: 35 })} />
-                  <AgendaSession room={0} sessionId="730865" />
-                  <AgendaSession room={1} sessionId="740797" />
-                  <AgendaSession room={2} sessionId="745872" />
+                  <AgendaSession fullWidth>
+                    <StyledTrackHeader>TBA</StyledTrackHeader>
+                  </AgendaSession>
+                  {/*<AgendaSession room={0} sessionId="1027402"  />*/}
+                  <AgendaSession room={1} sessionId="1025890" />
+                  <AgendaSession fullWidth>
+                    <StyledTrackHeader>TBA</StyledTrackHeader>
+                  </AgendaSession>
+                  {/*<AgendaSession room={2} sessionId="1026077" />*/}
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 15, minutes: 20 })} />
@@ -197,9 +206,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 15, minutes: 50 })} />
-                  <AgendaSession room={0} sessionId="735098" />
-                  <AgendaSession room={1} sessionId="746505" />
-                  <AgendaSession room={2} sessionId="734227" />
+                  <AgendaSession room={0} sessionId="1027781" />
+                  <AgendaSession room={1} sessionId="1027423" />
+                  <AgendaSession room={2} sessionId="1027068" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 16, minutes: 35 })} />
