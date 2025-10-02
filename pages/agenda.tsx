@@ -52,12 +52,14 @@ const AgendaPage: NextPage<AgendaPageProps> = ({ sessions, sessionId }) => {
             </p>
           </React.Fragment>
         )}
+
+        <AllAgendas conference={conference} conferenceInstance={conference.Instance} dates={dates} />
+
         <Sponsors
           show={!conference.HideSponsors}
           hideUpsell={conference.HideSponsorshipUpsell}
           sponsors={conference.Sponsors.filter((s) => s.type === SponsorType.Gold || s.type === SponsorType.Platinum)}
         />
-        <AllAgendas conference={conference} conferenceInstance={conference.Instance} dates={dates} />
       </div>
     </Main>
   )
