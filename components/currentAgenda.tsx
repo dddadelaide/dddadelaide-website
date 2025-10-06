@@ -188,15 +188,9 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 14, minutes: 35 })} />
-                  <AgendaSession fullWidth>
-                    <StyledTrackHeader>TBA</StyledTrackHeader>
-                  </AgendaSession>
-                  {/*<AgendaSession room={0} sessionId="1027402"  />*/}
+                  <AgendaSession room={0} sessionId="1016633"  />
                   <AgendaSession room={1} sessionId="1025890" />
-                  <AgendaSession fullWidth>
-                    <StyledTrackHeader>TBA</StyledTrackHeader>
-                  </AgendaSession>
-                  {/*<AgendaSession room={2} sessionId="1026077" />*/}
+                  <AgendaSession room={2} sessionId="1026077" />
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 15, minutes: 20 })} />
