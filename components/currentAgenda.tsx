@@ -15,7 +15,7 @@ import { AgendaProvider } from 'components/Agenda/AgendaContext'
 import { AgendaSession } from 'components/Agenda/AgendaSession'
 import { AgendaTime } from 'components/Agenda/AgendaTime'
 import { set } from 'date-fns'
-// import { StyledAgendaPresenter } from './Agenda/AgendaSession.styled'
+import { StyledAgendaPresenter } from './Agenda/AgendaSession.styled'
 
 interface CurrentAgendaProps {
   date: Date
@@ -118,19 +118,19 @@ export const CurrentAgenda = ({
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 9, minutes: 0 })} />
-                  {/*<AgendaSession*/}
-                  {/*  sessionId="766339"*/}
-                  {/*  room={'Braggs Theatre'}*/}
-                  {/*  renderPresenters={(presenters) => (*/}
-                  {/*    <StyledAgendaPresenter isKeynote>Keynote: {presenters}</StyledAgendaPresenter>*/}
-                  {/*  )}*/}
-                  {/*  fullWidth*/}
-                  {/*  isKeynote*/}
-                  {/*  alwaysShowRoom*/}
-                  {/*/>*/}
-                  <AgendaSession alwaysShowRoom fullWidth>
-                    <StyledTrackHeader>TBA: Keynote</StyledTrackHeader>
-                  </AgendaSession>
+                  <AgendaSession
+                    sessionId="1049050"
+                    room={'Braggs Theatre'}
+                    renderPresenters={(presenters) => (
+                      <StyledAgendaPresenter isKeynote>Keynote: {presenters}</StyledAgendaPresenter>
+                    )}
+                    fullWidth
+                    isKeynote
+                    alwaysShowRoom
+                  />
+                  {/*<AgendaSession alwaysShowRoom fullWidth>*/}
+                  {/*  <StyledTrackHeader>TBA: Keynote</StyledTrackHeader>*/}
+                  {/*</AgendaSession>*/}
                 </StyledAgendaRow>
                 <StyledAgendaRow>
                   <AgendaTime time={set(date, { hours: 9, minutes: 45 })} />
