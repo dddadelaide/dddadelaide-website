@@ -1,4 +1,4 @@
-import { Action, Conference, Dates } from './types'
+import { Action, Conference, Dates, TicketPurchasingOptions } from './types'
 
 export default function getConferenceActions(conference: Conference, dates: Dates): Action[] {
   const actions: Action[] = []
@@ -19,7 +19,7 @@ export default function getConferenceActions(conference: Conference, dates: Date
     })
   }
 
-  if (dates.RegistrationOpen) {
+  if (dates.RegistrationOpen || conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen) {
     actions.push({
       Category: 'tickets',
       Title: 'Purchase a ticket',
