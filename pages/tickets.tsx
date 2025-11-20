@@ -21,8 +21,10 @@ const TicketPage: NextPage = () => {
 
       {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
         <Text>
-          Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets
-          become available.
+          <em>
+            Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets
+            become available.
+          </em>
         </Text>
       )}
 
@@ -31,9 +33,11 @@ const TicketPage: NextPage = () => {
       {conference.TicketsProviderId === TicketsProvider.Eventbrite && (
         <Eventbrite eventId={conference.TicketsProviderEventId} />
       )}
-      {conference.TicketsProviderId === TicketsProvider.Tito && dates.RegistrationOpen && (
-        <Tito accountId={conference.TicketsProviderAccountId} eventId={conference.TicketsProviderEventId} />
-      )}
+
+      {conference.TicketsProviderId === TicketsProvider.Tito &&
+        (dates.RegistrationOpen || conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen) && (
+          <Tito accountId={conference.TicketsProviderAccountId} eventId={conference.TicketsProviderEventId} />
+        )}
     </Main>
   )
 }
