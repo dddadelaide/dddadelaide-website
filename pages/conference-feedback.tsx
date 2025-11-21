@@ -68,12 +68,12 @@ const ConferenceFeedback: NextPage = () => {
           {conference.Name} {conference.Instance} feedback
         </h1>
         <p>
-          Please use <a href="https://forms.gle/PVyfhcaKgzX9cACT9">this form to provide conference feedback</a>.
+          Please use <a href="https://forms.gle/nQp2ypa7K1npqieZ8">this form to provide conference feedback</a>.
         </p>
         <p>&nbsp;</p>
         <p>
           If you would like to leave feedback for a session please use{' '}
-          <a href="https://forms.gle/7p8AapfBquDd4q9z6">this form</a>.
+          <a href="https://forms.gle/aF8Sfu6dALJyCZFD9">this form</a>.
         </p>
       </StyledContainer>
     </Main>
