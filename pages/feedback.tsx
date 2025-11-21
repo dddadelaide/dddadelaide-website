@@ -75,13 +75,13 @@ const Feedback: NextPage<FeedbackProps> = () => {
         </h1>
         <p>
           Please use{' '}
-          <a href="https://forms.gle/7p8AapfBquDd4q9z6">this form to provide feedback on individual session feedback</a>
+          <a href="https://forms.gle/G4Wk3zKNb5KxWsbGA">this form to provide feedback on individual session feedback</a>
           .
         </p>
         <p>&nbsp;</p>
         <p>
           If you would like to leave feedback about the conference as a whole, please use{' '}
-          <a href="https://forms.gle/PVyfhcaKgzX9cACT9">this form</a>.
+          <a href="https://forms.gle/3V7RJvHegaYrG5V59">this form</a>.
         </p>
       </StyledContainer>
     </Main>
