@@ -20,7 +20,10 @@ export default function Menu(conference: Conference, dates: Dates): { Top: MenuI
     },
   ]
 
-  if (dates.RegistrationOpen || conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen) {
+  if (
+    dates.RegistrationOpen ||
+    (!dates.RegistrationClosed && conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen)
+  ) {
     topMenu.push({
       href: '/tickets',
       name: 'Tickets',
