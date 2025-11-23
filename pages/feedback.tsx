@@ -71,14 +71,16 @@ const Feedback: NextPage<FeedbackProps> = () => {
     <Main title="Feedback" description={`${conference.Name} ${conference.Instance} session feedback.`}>
       <StyledContainer>
         <h1>
-          {conference.Name} {conference.Instance} session feedback
+          {conference.Name} {conference.Instance} feedback
         </h1>
+        <h2>Session feedback</h2>
         <p>
           Please use{' '}
           <a href="https://forms.gle/G4Wk3zKNb5KxWsbGA">this form to provide feedback on individual session feedback</a>
           .
         </p>
         <p>&nbsp;</p>
+        <h2>Conference feedback</h2>
         <p>
           If you would like to leave feedback about the conference as a whole, please use{' '}
           <a href="https://forms.gle/3V7RJvHegaYrG5V59">this form</a>.
