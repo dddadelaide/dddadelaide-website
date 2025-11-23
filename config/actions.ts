@@ -19,7 +19,10 @@ export default function getConferenceActions(conference: Conference, dates: Date
     })
   }
 
-  if (dates.RegistrationOpen || conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen) {
+  if (
+    dates.RegistrationOpen ||
+    (!dates.RegistrationClosed && conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen)
+  ) {
     actions.push({
       Category: 'tickets',
       Title: 'Purchase a ticket',

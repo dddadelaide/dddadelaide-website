@@ -19,7 +19,7 @@ const TicketPage: NextPage = () => {
     <Main title="Tickets" description={`Purchase tickets for ${conference.Name}`}>
       <h1>Tickets</h1>
 
-      {conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
+      {!dates.RegistrationClosed && conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen && (
         <Text>
           <em>
             Tickets have sold out, but we are asking people to add themselves to the waitlist just in case any tickets
@@ -35,7 +35,9 @@ const TicketPage: NextPage = () => {
       )}
 
       {conference.TicketsProviderId === TicketsProvider.Tito &&
-        (dates.RegistrationOpen || conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen) && (
+        (dates.RegistrationOpen ||
+          (!dates.RegistrationClosed &&
+            conference.TicketPurchasingOptions === TicketPurchasingOptions.WaitListOpen)) && (
           <Tito accountId={conference.TicketsProviderAccountId} eventId={conference.TicketsProviderEventId} />
         )}
     </Main>
@@ -44,7 +46,10 @@ const TicketPage: NextPage = () => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const { dates } = getCommonServerSideProps(context)
-  if (!dates.RegistrationOpen && Conference.TicketPurchasingOptions !== TicketPurchasingOptions.WaitListOpen) {
+  if (
+    dates.RegistrationClosed ||
+    (!dates.RegistrationOpen && Conference.TicketPurchasingOptions !== TicketPurchasingOptions.WaitListOpen)
+  ) {
     return { notFound: true }
   }
 
