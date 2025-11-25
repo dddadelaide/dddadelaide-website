@@ -67,6 +67,10 @@ export const StyledFooterContainer = styled('div')(({ theme }) => ({
     marginRight: 'auto',
   },
 
+  'span a': {
+    color: theme.colors.white,
+  },
+
   p: {
     gridColumn: '2 / span 2',
     gridRow: 2,

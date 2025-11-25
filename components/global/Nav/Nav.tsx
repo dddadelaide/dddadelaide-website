@@ -7,7 +7,7 @@ import { useNavigationState, useNavigationDispatch } from './Nav.context'
 
 export type NavStatus = 'open' | 'opening' | 'closed' | 'closing'
 
-interface NavProps {
+export interface NavProps {
   menu: MenuItem[]
 }
 
