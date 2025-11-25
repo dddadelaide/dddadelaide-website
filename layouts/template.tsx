@@ -78,7 +78,7 @@ export const Template = ({
           <div id="mailing-list-container"></div>
         </div>
       )}
-      <Footer />
+      <Footer menu={menu.Footer} />
       {appConfig.testingMode() && <TestingControl />}
     </Fragment>
   )
